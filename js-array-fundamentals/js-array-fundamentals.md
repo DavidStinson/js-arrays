@@ -1,5 +1,4 @@
-# Micro Lesson 
 
-Micro Lesson notes go here
 
-(include link to micro lesson style guide or micro lesson template here)
+
+You should always name array variables plurally, because they are intended to store a collection of data - for example, use `colors` or `animals` as opposed to `color` or `animal`. This is a best practice, that you should absolutely follow.
