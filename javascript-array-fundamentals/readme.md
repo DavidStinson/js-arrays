@@ -1,6 +1,7 @@
 # Javascript Array Fundamentals 
 
-In this module, we'll dive into the core concepts of JavaScript arrays. Arrays are essential tools for managing collections of data. Arrays are essential data structures that allow you to store collections of values.
+**Learning Objective:**
+By the end of this lesson, students will be able to create arrays and access elements within arrays using square bracket notation `[]` and the `array.at()` method.
 
 ## Creating Arrays
 
