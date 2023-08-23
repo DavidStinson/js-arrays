@@ -4,6 +4,8 @@
 
 ## What are arrays?
 
+Think of arrays in JavaScript as a bookshelf full of books. Each book on the shelf is an element of the array. Books on the shelf have a specific order - there is a first book on the shelf and a last book on the shelf, and every book between has a specific location on the shelf.
+
 Arrays can contain zero or more items called - *elements* (not to be confused with HTML elements). These elements are stored in a specific order. 
 
 Each element in an array can hold any data type - strings, numbers, objects, functions, even other arrays. This sets JavaScript apart from many other programming languages. However, just because you can doesn't necessarily mean that you should - you'll see as we work with arrays we will typically want them to contain a single type of data.
@@ -11,8 +13,6 @@ Each element in an array can hold any data type - strings, numbers, objects, fun
 In JavaScript, arrays are able to grow and shrink in size dynamically, and you're able to add to them without being concerned about their capacity.
 
 Although it's common to refer to an array as its own data type, they are technically a subtype of the `Object` type. This means arrays are technically objects in JavaScript.
-
-Think of arrays in JavaScript as a bookshelf full of books. Each book on the shelf is an element of the array. Books on the shelf have a specific order - there is a first book on the shelf and a last book on the shelf, and every book between has a specific location on the shelf.
 
 ___
 📚 An *element* in an array is an individual item stored at a specific position within an array. 
