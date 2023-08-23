@@ -1,6 +1,6 @@
 # Javascript Array Fundamentals 
 
-In this microlesson, we'll dive into the core concepts of JavaScript arrays. Arrays are essential tools for managing collections of data. Arrays are essential data structures that allow you to store collections of values.
+In this module, we'll dive into the core concepts of JavaScript arrays. Arrays are essential tools for managing collections of data. Arrays are essential data structures that allow you to store collections of values.
 
 ## Creating Arrays
 
@@ -23,15 +23,14 @@ const nums2 = new Array(2, 4, 18);
 The best practice is to use _Array Literal Notation_ because it's more concise and the class approach behaves differently if you pass only one argument.
 
 
-:wave:  **Hands-On : 1 min**
+### :wave:  Hands-On : 1 min
 
 Create an array named `movies` containing the titles (strings) of three of your favorite movies.
 
 
-
 ## Accessing Elements in an Array
 
-Array elements are accessed using square bracket notation along with the element's index (position) within the array.
+Array elements are accessed using square bracket notation along with the element's __index__ (position) within the array.
 
 ```js
 let movies = ['Caddyshack', 'Interstellar', 'Moonraker'];
@@ -44,19 +43,18 @@ Note that indexes are integers where `0` is used to access the first element.
 
 <hr>
 
-:books: An index is a numerical value that represents the position of an element within an array.
+:books:  An __index__ is a numerical value that represents the position of an element within an array.
 
 <hr>
 
-🧠 Remember that array indexes start from 0 for the first element. This "zero-based" indexing convention is used in programming to align with memory offset principles.
+🧠  Remember that array indexes start from 0 for the first element. This "zero-based" indexing convention is used in programming to align with memory offset principles.
 
 <hr>
 
 
-**Accessing the Last Element**
+### Accessing the Last Element
 
 To access the last element of an array, you can utilize the [length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) property.
-
 
 ```js
 // Accessing the last movie ('Moonraker')
@@ -69,3 +67,14 @@ Keep in mind that JavaScript does not support negative indexing, unlike some oth
 movies[-1];  // Returns: undefined
 ```
 
+### Using the array.at() Method
+
+Starting from ES6, JavaScript introduced the array.at() method to directly access elements by their index, providing a concise alternative to traditional bracket notation.
+
+You can even use negative indexes when you use the .at() method.
+
+```js
+let secondMovie = movies.at(-2);  // Accessing the second movie ('Interstellar')
+```
+
+The array.at() method improves code readability, especially when working with complex array manipulations.
