@@ -1,4 +1,4 @@
-# JavaScript Array Foundations
+# Intro to JS Arrays
 
 ![JS Arrays hero image](./assets/js-arrays.png)
 
