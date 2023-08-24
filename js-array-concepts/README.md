@@ -1,12 +1,12 @@
-# JS Arrays - Concepts
+# Intro to JS Arrays - Concepts
 
-![JS array concepts hero image](./assets/js-arrays-concepts.png)
+![Intro to JS arrays concepts hero image](./assets/hero.png)
 
 ## What are arrays?
 
 Think of arrays in JavaScript as a bookshelf full of books. Each book on the shelf is an element of the array. Books on the shelf have an order - there is a first book on the shelf and a last book on the shelf, and every book between has a specific location on the shelf.
 
-Arrays can contain zero or more items called - *elements* (not to be confused with HTML elements). These elements are stored in a specific order. 
+[Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array) can contain zero or more items called - *elements* (not to be confused with HTML elements). These elements are stored in a specific order. 
 
 Each element in an array can hold any data type - strings, numbers, objects, functions, or even other arrays. This sets JavaScript apart from many other programming languages. However, just because you can doesn't necessarily mean that you should - as we work with arrays, we will typically want them to contain a single type of data.
 

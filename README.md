@@ -1,4 +1,4 @@
-# JavaScript Array Foundations
+# Intro to JS Arrays
 
 ![JS Arrays hero image](./assets/js-arrays.png)
 
@@ -15,19 +15,19 @@ This module introduces foundational JavaScript array material with these learnin
 
 | Micro Lesson | Delivery Time | Video |
 |--------------|---------------|-------|
-| [Setup](./setup/setup.md)                                                                                                                  | 15 min | [Link]() |
-| [JavaScript Array Concepts](./js-array-concepts/js-array-concepts.md)                                                                      | 15 min | [Link]() |
-| [JavaScript Array Fundamentals](./js-array-fundamentals/js-array-fundamentals.md)                                                          | 15 min | [Link]() |
-| [JavaScript Array Manipulation](./js-array-manipulation/js-array-manipulation.md)                                                          | 15 min | [Link]() |
-| [JavaScript Array Iteration](./js-array-iteration/js-array-iteration.md)                                                                   | 15 min | [Link]() |
-| [JavaScript Array Copying Concepts and Techniques](./js-array-copying-concepts-and-techniques/js-array-copying-concepts-and-techniques.md) | 15 min | [Link]() |
+| [Setup](./setup/README.md)                                                     | 15 min | [Link]() |
+| [Concepts](./concepts/README.md)                                               | 15 min | [Link]() |
+| [Fundamentals](./fundamentals/README.md)                                       | 15 min | [Link]() |
+| [Manipulation](./manipulation/README.md)                                       | 15 min | [Link]() |
+| [Iteration](./iteration/README.md)                                             | 15 min | [Link]() |
+| [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 15 min | [Link]() |
 
 
 ## Module resources
 
 :file_folder: [Instructor Guide](./instructor-guide/instructor-guide.md)
 
-:rocket: [Level Up](./level-up/level-up.md)
+:rocket: [Level Up](./level-up/README.md)
 
 :open_book: [Reference Materials](./reference.md)
 
