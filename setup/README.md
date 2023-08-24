@@ -1,6 +1,6 @@
 # Setup
 
-![Setup hero image](./assets/js-arrays-setup.png)
+![Setup hero image](./assets/hero.png)
 
 Navigate to your **`~/code/sei/lectures`** directory.
 

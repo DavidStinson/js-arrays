@@ -1,6 +1,6 @@
 # Intro to JS Arrays
 
-![JS Arrays hero image](./assets/js-arrays.png)
+![Hero image](./assets/hero.png)
 
 ## Module overview
 
@@ -11,25 +11,30 @@ This module introduces foundational JavaScript array material with these learnin
 - Iterate through the elements of an array
 - Understand and apply various methods to copy some or all of an array
 
-## Outline
+## Content outline
 
 | Micro Lesson | Delivery Time | Video |
-|--------------|---------------|-------|
-| [Setup](./setup/README.md)                                                     | 15 min | [Link]() |
+|--------------|:-------------:|:-----:|
+| [Setup](./setup/README.md)                                                     | 15 min | n/a      |
 | [Concepts](./concepts/README.md)                                               | 15 min | [Link]() |
 | [Fundamentals](./fundamentals/README.md)                                       | 15 min | [Link]() |
 | [Manipulation](./manipulation/README.md)                                       | 15 min | [Link]() |
 | [Iteration](./iteration/README.md)                                             | 15 min | [Link]() |
 | [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 15 min | [Link]() |
 
-
-## Module resources
-
-:file_folder: [Instructor Guide](./instructor-guide/instructor-guide.md)
+## Additional content 
 
 :rocket: [Level Up](./level-up/README.md)
 
-:open_book: [Reference Materials](./reference.md)
+:open_book: [Reference Materials](./references/README.md)
+
+## Back of house resources
+
+:file_folder: [Instructor Guide](./back-of-house/instructor-guide.md)
+
+:video_camera: [Video Guide](./back-of-house/video-guide.md)
+
+:building_construction: [Release Notes](./back-of-house/release-notes.md)
 
 <hr>
 
