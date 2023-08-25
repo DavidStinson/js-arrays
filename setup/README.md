@@ -2,7 +2,7 @@
 
 ![Setup hero image](./assets/hero.png)
 
-Navigate to your **`~/code/sei/lectures`** directory.
+Open your Terminal application and navigate to your **`~/code/sei/lectures`** directory.
 
 ```bash
 cd ~/code/sei/lectures
