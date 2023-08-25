@@ -4,8 +4,6 @@
 
 **Learning objective:** By the end of this lesson, students will be able to create arrays and access elements within arrays using square bracket notation `[]` and the `array.at()` method.
 
-tktk do we want this much detail in the learning objectives?
-
 ## Creating arrays
 
 There are two primary methods for initializing arrays:
