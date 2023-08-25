@@ -2,10 +2,9 @@
 
 # Intro to JS Arrays - Copying Concepts and Techniques
 
-## Making Copies of an Array
-
-
 When working with arrays in JavaScript, there are scenarios where you might want to create a copy of an array rather than modifying the original one. This can prevent unintended side effects in your code, or you might want to derive a new list from the original without affecting it.
+
+## Making Copies of an Array
 
 There are multiple methods to copy an array. The method you choose largely depends on whether you wish to copy a segment of the array or the entire array itself.
 
