@@ -1,6 +1,6 @@
 # Intro to JS Arrays
 
-![JS Arrays hero image](./assets/js-arrays.png)
+![Hero image](./assets/hero.png)
 
 ## Module overview
 
@@ -11,25 +11,30 @@ This module introduces foundational JavaScript array material with these learnin
 - Iterate through the elements of an array
 - Understand and apply various methods to copy some or all of an array
 
-## Outline
+## Content outline
 
 | Micro Lesson | Delivery Time | Video |
-|--------------|---------------|-------|
-| [Setup](./setup/setup.md)                                                                                                                  | 15 min | [Link]() |
-| [JavaScript Array Concepts](./js-array-concepts/js-array-concepts.md)                                                                      | 15 min | [Link]() |
-| [JavaScript Array Fundamentals](./js-array-fundamentals/js-array-fundamentals.md)                                                          | 15 min | [Link]() |
-| [JavaScript Array Manipulation](./js-array-manipulation/js-array-manipulation.md)                                                          | 15 min | [Link]() |
-| [JavaScript Array Iteration](./js-array-iteration/js-array-iteration.md)                                                                   | 15 min | [Link]() |
-| [JavaScript Array Copying Concepts and Techniques](./js-array-copying-concepts-and-techniques/js-array-copying-concepts-and-techniques.md) | 15 min | [Link]() |
+|--------------|:-------------:|:-----:|
+| [Setup](./setup/README.md)                                                     | 15 min | n/a      |
+| [Concepts](./concepts/README.md)                                               | 15 min | [Link]() |
+| [Fundamentals](./fundamentals/README.md)                                       | 15 min | [Link]() |
+| [Manipulation](./manipulation/README.md)                                       | 15 min | [Link]() |
+| [Iteration](./iteration/README.md)                                             | 15 min | [Link]() |
+| [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 15 min | [Link]() |
 
+## Additional content 
 
-## Module resources
+:rocket: [Level Up](./level-up/README.md)
 
-:file_folder: [Instructor Guide](./instructor-guide/instructor-guide.md)
+:open_book: [Reference Materials](./references/README.md)
 
-:rocket: [Level Up](./level-up/level-up.md)
+## Back of house resources
 
-:open_book: [Reference Materials](./reference.md)
+:file_folder: [Instructor Guide](./back-of-house/instructor-guide.md)
+
+:video_camera: [Video Guide](./back-of-house/video-guide.md)
+
+:building_construction: [Release Notes](./back-of-house/release-notes.md)
 
 <hr>
 
