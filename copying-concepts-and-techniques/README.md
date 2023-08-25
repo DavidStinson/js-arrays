@@ -1,6 +1,6 @@
-# Intro to JS Arrays - Copying Concepts and Techniques
-
 ![Hero image](./assets/hero.png)
+
+# Intro to JS Arrays - Copying Concepts and Techniques
 
 ## Making Copies of an Array
 
