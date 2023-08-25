@@ -1,7 +1,6 @@
-# Intro to JS Arrays - Iteration
-
 ![Hero image](./assets/hero.png)
 
+# Intro to JS Arrays - Iteration
 
 Arrays are fundamental in JavaScript, and often, we need to process each item in an array. This action is known as *iteration*. 
 
