@@ -11,7 +11,7 @@ Just like we access elements in an array using square bracket notation, we can a
 ```js
 // recall that movies is ['Barbie', 'Interstellar', 'Get Out']
 
-// Let's update the 2nd movie (index of 1)
+// let's update the 2nd movie (index of 1)
 movies[1] = 'Arrival';
 // movies is now ['Barbie', 'Arrival', 'Get Out']
 ```
