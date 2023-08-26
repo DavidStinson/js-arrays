@@ -126,7 +126,7 @@ This syntax list may seem overwhelming and confusing at first glance, but it mea
 ```js
 // recall that movies is ['Barbie', 'Arrival', 'Get Out', 'Parasite']
 
-// Remove 'Arrival'
+// remove 'Arrival'
 let removedMovies = movies.splice(1, 1);
 // movies is ['Barbie', 'Get Out', 'Parasite']
 // removedMovies is ['Arrival']
@@ -135,7 +135,7 @@ let removedMovies = movies.splice(1, 1);
 ### Using `splice()` to add one or more elements
 
 ```js
-// Insert 'Jurassic Park' and 'Avatar' after 'Get Out'
+// insert 'Jurassic Park' and 'Avatar' after 'Get Out'
 removedMovies = movies.splice(1, 0, 'Jurassic Park', 'Avatar');
 // movies is ['Barbie', 'Get Out', 'Jurassic Park', 'Avatar', 'Parasite']
 // removedMovies is [] (an empty array - no items were removed)
@@ -144,7 +144,7 @@ removedMovies = movies.splice(1, 0, 'Jurassic Park', 'Avatar');
 ### Using `splice()` to replace one or more elements
 
 ```js
-// Replace 'Jurassic Park' and 'Avatar' with 'Black Panther'
+// replace 'Jurassic Park' and 'Avatar' with 'Black Panther'
 removedMovies = movies.splice(2, 2, 'Black Panther');
 // movies is ['Barbie', 'Get Out', 'Black Panther', 'Parasite']
 // removedMovies is ['Jurassic Park', 'Avatar']
