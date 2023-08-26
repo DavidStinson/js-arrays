@@ -136,7 +136,7 @@ let removedMovies = movies.splice(1, 1);
 
 ```js
 // insert 'Jurassic Park' and 'Avatar' after 'Get Out'
-removedMovies = movies.splice(1, 0, 'Jurassic Park', 'Avatar');
+removedMovies = movies.splice(2, 0, 'Jurassic Park', 'Avatar');
 // movies is ['Barbie', 'Get Out', 'Jurassic Park', 'Avatar', 'Parasite']
 // removedMovies is [] (an empty array - no items were removed)
 ```
