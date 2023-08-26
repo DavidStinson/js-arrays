@@ -1,6 +1,6 @@
-# JS Arrays - Manipulation
-
 ![JS arrays manipulation hero image](./assets/hero.png)
+
+# JS Arrays - Manipulation
 
 **Learning objective:** By the end of this lesson, students will be able to manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array.
 
@@ -18,12 +18,12 @@ movies[1] = 'Arrival';
 
 Wait though, isn't `movies` a constant? How are we able to modify its contents? 
 
-When we made `movies` a constant, what we're really telling JavaScript is to not let us change what `movies` is pointing at (a specific array). It is not, however, saying that the contents of that array cannot be *mutated* or altered. In short if we try doing something like the examples below, we'll get an error:
+When we made `movies` a constant, we told JavaScript not to let us change what `movies`  points at (a specific array). It is not, however, saying that the contents of that array cannot be *mutated* or altered. In short, if we try doing something like the examples below, we'll get an error:
 
 ```js
-// attempting to change the movies constant to string
+// attempting to change the movies constant to a string
 movies = 'Barbie and Arrival'
-// attemping to change the movies constant to a different array
+// attempting to change the movies constant to a different array
 movies = ['Barbie', 'Arrival']
 ```
 
@@ -35,7 +35,7 @@ ___
 
 ## Adding or removing elements at the start or end of an array
 
-Don't worry, we'll eventually get to adding (and removing) elements anywhere in an array!
+Don't worry; we'll eventually get to adding (and removing) elements anywhere in an array!
 
 ### `push()`
 
@@ -57,11 +57,11 @@ movies.unshift('Dune', 'Coco');
 // movies is ['Dune', 'Coco', 'Barbie', 'Arrival', 'Get Out', 'Parasite']
 ```
 
-Here, you can see we've added two items to the array by passing multiple arguments to the method.
+Here, we've added two items to the array by passing multiple arguments to the method.
 
 ### `pop()`
 
-We can remove a single element from the **end** of an array using the `pop` method:
+We can remove a single element from the **end** of an array using the `pop()` method:
 
 ```js
 movies.pop();
@@ -70,14 +70,14 @@ movies.pop();
 
 ### `shift()`
 
-We can also remove from the **front** of an array with `shift`:
+We can also remove from the **front** of an array with `shift()`:
 
 ```js
 movies.shift();
 // movies is ['Coco', 'Barbie', 'Arrival', 'Get Out']
 ```
 
-`pop()` and `shift()` both only remove one element at a time and don’t take any arguments. These methods both return the element that was removed from the array:
+`pop()` and `shift()` remove only one element at a time and don’t take any arguments. These methods both return the element that was removed from the array:
 
 ```js
 const removedMovie = movies.shift();
@@ -97,42 +97,19 @@ The methods with shorter names **remove** elements from an array
 shift <- [...] -> pop
 ```
 
-Don't get too caught up in trying to remembering things like this though, MDN, Google, and AI assistants are there to help you remember the things you might get turned around on.
+Don't get too caught up in remembering things like this though; MDN, Google, and AI assistants are there to help you remember the things you might get turned around on or forget.
+
+### :muscle: You Do - 1 minute
+
+Add a movie of your choice to the end of the array!
+
+Can't think of a movie? If you need a suggestion, I'll be adding **Parasite**.
 
 ## Adding and removing elements anywhere in an array
 
-The [**Array.prototype.splice**](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) method can add or remove any number of elements to/from an array with a single line of code!
+The `splice()` method is capable of **adding or removing** any number of elements inside an array. You can even take both actions simultaneously with a single line of code! 
 
-[Array.prototype.splice() - JavaScript | MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
-
-`splice()` has a syntax of: `array.splice(start, deleteCount, newItem1, newItem2...)`.
-
-Examples of adding/removing elements with `splice()`:
-
-```jsx
-let movies = [ 'Caddyshack', 'Interstellar', 'Scarface', 'Trading Places', 'Iron Man' ]
-//							    0              1             2              3              4
-let removedMovies = movies.splice(3, 2, 'Spaceballs', 'Alien')
-// removedMovies is ['Trading Places', 'Iron Man']
-// movies is ['Caddyshack', 'Interstellar', 'Scarface', 'Spaceballs', 'Alien']
-//                  0              1             2           3           4
-removedMovies = movies.splice(0, 3)
-// removedMovies is ['Caddyshack', 'Interstellar', 'Scarface']
-// movies is [ 'Spaceballs', 'Alien' ]
-//                  0           1
-removedMovies = movies.splice(1, 0, 'The Sting')
-// removedMovies is []
-// movies is [ 'Spaceballs', 'The Sting', 'Alien' ]
-//                  0              1         2
-```
-
-The `splice()` method always returns an array containing the removed elements.
-
-### Add/Remove Elements To/From Anywhere in the Array
-
-The `splice()` method is capable of **adding and/or removing** any number of elements inside an array with a single line of code!
-
-If we check [the splice docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice) we'll find the syntax to be:
+If we check [the splice docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice), we'll find the syntax to be:
 
 ```js
 splice(start)
@@ -142,49 +119,49 @@ splice(start, deleteCount, item0, item1)
 splice(start, deleteCount, item0, item1, /* …, */ itemN)
 ```
 
-This syntax list may seem overwhelming and confusing at first glance, but what it means is that all but the first parameter is optional - so when we call `splice()`, its behavior will change depending on how many arguments we pass to it. Let's explore this idea more.
+This syntax list may seem overwhelming and confusing at first glance, but it means that all but the first parameter is optional - so when we call `splice()`, its behavior will change depending on how many arguments we pass to it. Let's explore this idea more.
 
-#### Using `splice()` to Remove Element(s)
+### Using `splice()` to remove one or more elements
 
 ```js
-// Remove 'Caddyshack' & 'Interstellar'
-let removedMovies = movies.splice(1, 2);
-// movies -> ['Jurassic Park', 'Contact']
-// removedMovies -> ['Caddyshack', 'Interstellar']
+// recall that movies is ['Barbie', 'Arrival', 'Get Out', 'Parasite']
+
+// Remove 'Arrival'
+let removedMovies = movies.splice(1, 1);
+// movies is ['Barbie', 'Get Out', 'Parasite']
+// removedMovies is ['Arrival']
 ```
 
-#### Using `splice()` to Insert Element(s)
+### Using `splice()` to add one or more elements
 
 ```js
-// Insert 'Spaceballs' & 'Alien' after 'Jurassic Park'
-removedMovies = movies.splice(1, 0, 'Spaceballs', 'Alien');
-// movies -> ['Jurassic Park', 'Spaceballs', 'Alien', 'Contact']
-// removedMovies -> [] (empty array)
+// Insert 'Jurassic Park' and 'Avatar' after 'Get Out'
+removedMovies = movies.splice(1, 0, 'Jurassic Park', 'Avatar');
+// movies is ['Barbie', 'Get Out', 'Jurassic Park', 'Avatar', 'Parasite']
+// removedMovies is [] (an empty array - no items were removed)
 ```
 
-#### Using `splice()` to Replace Element(s)
+### Using `splice()` to replace one or more elements
 
 ```js
-// Replace 'Jurassic Park' & 'Spaceballs' with 'Best In Show'
-removedMovies = movies.splice(0, 2, 'Best In Show');
-// movies -> ['Best In Show', 'Alien', 'Contact']
-// removedMovies -> ['Jurassic Park', 'Spaceballs']
+// Replace 'Jurassic Park' and 'Avatar' with 'Black Panther'
+removedMovies = movies.splice(2, 2, 'Black Panther');
+// movies is ['Barbie', 'Get Out', 'Black Panther', 'Parasite']
+// removedMovies is ['Jurassic Park', 'Avatar']
 ```
 
-As you saw, the `splice` method always returns an array containing the removed elements (an empty array if no elements were removed).
+As you saw, the `splice()` method always returns an array containing the removed elements (an empty array if no elements were removed).
 
-### 👉 You Do: Use `splice()` (1 min)
+### :muscle: You Do - 1 minute
 
-Here's my current `movies` array:
+Here's the data currently held by `movies`:
 
 ```js
-movies //-> ['Best In Show', 'Alien', 'Contact']
+['Barbie', 'Get Out', 'Black Panther', 'Parasite']
 ```
 
-- Use `splice()` to **replace** 'Contact' with 'The Matrix' & 'Gladiator'
-
-Afterwards, this will be the `movies` array:
+Use `splice()` to **replace** 2 of the movies of your choice and replace them with one movie of your choice. I'll be replacing **Black Panther** and **Parasite** with **John Wick**. After I do that, this will be my `movies` array:
 
 ```js
-movies //-> ['Best In Show', 'Alien', 'The Matrix', 'Gladiator']
+['Barbie', 'Get Out', 'John Wick']
 ```
