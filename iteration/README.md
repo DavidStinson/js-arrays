@@ -54,7 +54,7 @@ Which will result in the following output:
 
 ## Using a `for...of` loop
 
-Introduced in ES2015, the `for...of` statement offers a concise way to iterate over arrays (and other iterable structures like strings):
+The `for...of` statement offers a concise way to iterate over arrays (and other iterable structures like strings):
 
 ```js
 for (let movie of movies) {
