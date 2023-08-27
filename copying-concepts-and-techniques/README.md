@@ -10,7 +10,7 @@ There are multiple methods to copy an array. The method you choose will largely 
 
 ## Copy all of an array
 
-ES2015 introduced the [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `...`, which is a concise way to duplicate an entire array:
+The [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `...` is a concise way to duplicate an entire array:
 
 Example:
 
