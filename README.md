@@ -30,7 +30,7 @@ This module introduces foundational JavaScript array material with these learnin
 
 :open_book: [Reference Materials](./references/README.md)
 
-## Back of house resources
+## Internal resources
 
 :file_folder: [Instructor Guide](./back-of-house/instructor-guide.md)
 
