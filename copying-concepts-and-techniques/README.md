@@ -44,7 +44,7 @@ Example:
 
 ```js
 // movies is ['Barbie', 'Get Out', 'John Wick']
-const twoMovies = movies.slice(1, 2);
+const twoMovies = movies.slice(1);
 // twoMovies is ['Get Out', 'John Wick']
 ```
 
