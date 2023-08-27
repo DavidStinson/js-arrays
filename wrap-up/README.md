@@ -7,19 +7,19 @@
 The array `join()` method combines all of the string elements in an array and returns a single string:
 
 ```js
-fourMovies //-> ['Amadeus', 'Alien', 'The Matrix', 'The Sting'];
-let movieString = fourMovies.join();
-movieString //-> 'Amadeus,Alien,The Matrix,The Sting'
+// as a reminder, movies is ['Barbie', 'Get Out', 'John Wick']
+let movieString = moreMovies.join();
+// movieString is 'Barbie,Get Out,John Wick'
 ```
 	
 As you can see, by default, the movie strings were separated by a comma. However, we can pass `join()` whatever string we want to use as the separator:
 
 ```js
-movieString = fourMovies.join(' -- ');
-movieString //-> 'Amadeus -- Alien -- The Matrix -- The Sting'
+movieString = moreMovies.join(' -- ');
+// movieString is 'Barbie -- Get Out -- John Wick'
 ```
 
-There are many other useful array methods like `join()` above that we haven't covered here. Be sure to reference documentation such as that provided by MDN or do a google search when you encounter road blocks - often you don't need to reinvent the wheel since many array methods will help complete common tasks.
+There are many other useful array methods like `join()` above that we haven't covered here. Be sure to reference documentation such as that provided by MDN or do a Google search when you encounter road blocks - often you don't need to reinvent the wheel since many array methods will help complete common tasks.
 
 ## :question: Review Questions
 
