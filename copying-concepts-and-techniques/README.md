@@ -24,13 +24,13 @@ All elements from the `movies` array have been copied into the new array.
 
 ## Some of an array
 
-The [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) method comes in handy if you want to copy just a portion of an array. This method always returns a new array and, more importantly, doesn't modify or *mutate* the source array.
+The [`slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) method comes in handy if you want to copy just a portion of an array. This method always returns a new array and, more importantly, doesn't modify or *mutate* the source array.
 
 ___
 :books: *Mutating* means directly changing a piece of data without making a separate copy. So, if you change it in one place, it changes everywhere else you're using it too.
 ___
 
-The syntax for `slice` is as follows:
+The syntax for `slice()` is as follows:
 
 ```js
 slice()
