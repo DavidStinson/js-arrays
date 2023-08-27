@@ -8,14 +8,14 @@ The array `join()` method combines all of the string elements in an array and re
 
 ```js
 // as a reminder, movies is ['Barbie', 'Get Out', 'John Wick']
-let movieString = moreMovies.join();
+let movieString = movies.join();
 // movieString is 'Barbie,Get Out,John Wick'
 ```
 	
 As you can see, by default, the movie strings were separated by a comma. However, we can pass `join()` whatever string we want to use as the separator:
 
 ```js
-movieString = moreMovies.join(' -- ');
+movieString = movies.join(' -- ');
 // movieString is 'Barbie -- Get Out -- John Wick'
 ```
 
