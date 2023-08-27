@@ -2,7 +2,7 @@
 
 # 💪 You Do - 10 minutes
 
-Let's practice creating, modifying, and iterating over an array!
+Let's practice creating, modifying, and iterating over an array of strings!
 
 1. Assign an empty array to a variable named `books`.
 2. Add **'The Shining'** or another book of your choice to the `books` array.
