@@ -1,12 +1,27 @@
-# Intro to JS Arrays - Level Up
-
 ![Hero image](./assets/hero.png)
 
-# Resources for Further Study 
+# Intro to JS Arrays - Level Up
 
-Enrichment materials for more advanced students
-( Include additional exercises here, preferably not links to outside materials that we would struggle to maintain active links to ) 
+Here's some level up work related to JavaScript arrays!
 
-1.
-2.
-3.
+## Shallow vs. deep copies of arrays
+
+- **Shallow vs. Deep Copy**: It's important to note that the techniques we've discussed in this module perform a **shallow copy** of the array. This implies that if your array has objects, the copy will reference the same objects, not create fresh ones. Therefore, any modifications to the objects in the original array will be reflected in the copied array.
+
+  Want to see this in action? Try this out on the `movies` and `twoMovies` arrays from the lecture:
+
+  ```js
+  console.log(movies)
+  console.log(twoMovies)
+
+  movies[1] = 'Spider-man'
+
+  console.log(movies)
+  console.log(twoMovies)
+  ```
+
+  This can be a huge pain point in an application, so be careful of this behavior!
+
+- A **deep copy** also known as a **deep clone** creates a new array (or object) and also creates copies of every element or property, even if they are objects or arrays themselves. This ensures that the new copy is entirely independent of the original.
+
+When you're dealing with extensive arrays, some methods might use more memory than others. Depending on your specific needs, choose a method that offers optimal performance. 

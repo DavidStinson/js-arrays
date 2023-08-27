@@ -2,64 +2,57 @@
 
 # Intro to JS Arrays - Copying Concepts and Techniques
 
-When working with arrays in JavaScript, there are scenarios where you might want to create a copy of an array rather than modifying the original one. This can prevent unintended side effects in your code, or you might want to derive a new list from the original without affecting it.
+**Learning objective:** By the end of this lesson, students will be able to *iterate* through and carry out actions on each element in an array.
 
-## Making Copies of an Array
+When working with arrays in JavaScript, there are scenarios where you will want to create a copy of an array rather than modifying the original one. This can prevent unintended side effects in your code, or you might want to derive a new list from the original without affecting the original.
 
-There are multiple methods to copy an array. The method you choose largely depends on whether you wish to copy a segment of the array or the entire array itself.
+There are multiple methods to copy an array. The method you choose will largely depend upon whether you wish to copy a segment of the array or the entire array itself.
 
-Let's take a look...
+## Copy all of an array
 
-
-### Copy All of an Array
-
-ES2015 introduced the [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax).  `...` , a concise way to duplicate an entire array:
+ES2015 introduced the [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) `...`, which is a concise way to duplicate an entire array:
 
 Example:
 
 ```js
-let movies = ['Best In Show', 'Alien', 'The Matrix', 'Gladiator'];
+// as a reminder, movies is ['Barbie', 'Get Out', 'John Wick']
+
 const moviesCopy = [...movies];
-console.log(moviesCopy); //-> ['Best In Show', 'Alien', 'The Matrix', 'Gladiator']
+// movies copy is ['Barbie', 'Get Out', 'John Wick']
 ```
-All elements from the `movies` array have been "spread" into the new array.
+All elements from the `movies` array have been copied into the new array.
 
+## Some of an array
 
-### Some of an Array
+The [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) method comes in handy if you want to copy just a portion of an array. This method always returns a new array and, more importantly, doesn't modify or *mutate* the source array.
 
-If you want to copy just a portion of an array, the [slice](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice) method comes in handy. This method always returns a new array and, more importantly, doesn't modify or *mutate* the source array.
-
-> :books: In coding, when we say *mutate*, we mean changing a piece of data directly without making a separate copy of it. So, if you change it in one place, it changes everywhere else you're using it too.
+___
+:books: In coding, when we say *mutate*, we mean directly changing a piece of data without making a separate copy. So, if you change it in one place, it changes everywhere else you're using it too.
+___
 
 The syntax for `slice` is as follows:
 
-`array.slice(startIndex, [endIndex])`
+```js
+slice()
+slice(start)
+slice(start, end)
+```
 
 Here, the second argument is the ending index but does not include the value at that index in the result.
 
 Example:
 
 ```js
-let movies = ['Best In Show', 'Alien', 'The Matrix', 'Gladiator'];
-const twoMovies = movies.slice(1, 3);
-console.log(twoMovies); //-> ['Alien', 'The Matrix']
+// movies is ['Barbie', 'Get Out', 'John Wick']
+const twoMovies = movies.slice(1, 2);
+// twoMovies is ['Get Out', 'John Wick']
 ```
 
-
-### Copy an Array and Insert Additional Elements
+## Copy an array and insert additional elements
 
 Here's how you can copy an array and insert additional elements simultaneously using the spread syntax:
 
 ```js
-const twoMovies = ['Alien', 'The Matrix'];
-const fourMovies = ['Amadeus', ...twoMovies, 'The Sting'];
-console.log(fourMovies); //-> ['Amadeus', 'Alien', 'The Matrix', 'The Sting'];
+const moreMovies = ['The Matrix', ...movies];
+// moreMovies is ['The Matrix', 'Barbie', 'Get Out', 'John Wick']
 ```
-
-### Shallow vs. Deep Copies in Arrays
-
-- **Shallow vs. Deep Copy**: Important to note the techniques we've discussed here perform a **shallow copy** of the array. This implies that if your array has objects, the copy will reference the same objects, not create fresh ones. Therefore, any modifications to the objects in the original array will be reflected in the copied array.
-
- - A **deep copy** creates a new array (or object) and also creates copies of every element or property, even if they are objects or arrays themselves. This ensures that the new copy is entirely independent of the original.
-
-- **Performance Implications**: When you're dealing with extensive arrays, some methods might use more memory than others. Depending on your specific needs, choose a method that offers optimal performance. 

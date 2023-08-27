@@ -15,12 +15,14 @@ This module introduces foundational JavaScript array material with these learnin
 
 | Micro Lesson | Delivery Time | Video |
 |--------------|:-------------:|:-----:|
-| [Setup](./setup/README.md)                                                     | 15 min | n/a      |
+| [Setup](./setup/README.md)                                                     | 15 min | [Link]() |
 | [Concepts](./concepts/README.md)                                               | 15 min | [Link]() |
 | [Fundamentals](./fundamentals/README.md)                                       | 15 min | [Link]() |
 | [Manipulation](./manipulation/README.md)                                       | 15 min | [Link]() |
 | [Iteration](./iteration/README.md)                                             | 15 min | [Link]() |
+| [You Do](./you-do/README.md)                                                   | 15 min | [Link]() |
 | [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 15 min | [Link]() |
+| [Wrap Up](./wrap-up/README.md)                                                 | 15 min | [Link]() |
 
 ## Additional content 
 

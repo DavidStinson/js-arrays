@@ -126,7 +126,7 @@ This syntax list may seem overwhelming and confusing at first glance, but it mea
 ```js
 // recall that movies is ['Barbie', 'Arrival', 'Get Out', 'Parasite']
 
-// remove 'Arrival'
+// Remove 'Arrival'
 let removedMovies = movies.splice(1, 1);
 // movies is ['Barbie', 'Get Out', 'Parasite']
 // removedMovies is ['Arrival']
