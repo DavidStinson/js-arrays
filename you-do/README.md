@@ -9,7 +9,7 @@ Let's practice creating, modifying, and iterating over an array!
 3. Add **'Pride and Prejudice'** or another book of your chioce to the **front** of `books`.
 4. `console.log()` the second element of `books`.
 5. Update the second element by assigning to it **'Dune'** or another book of your choice.
-6. Insert **'Great Expectations'** or another book of your choice as a new second element (between 'Moby Dick' and 'Dune' if you followed the examples above).
+6. Insert **'Great Expectations'** or another book of your choice as a new second element (between **'Pride and Prejudice'** and **'Dune'** if you followed the examples above).
 7. Iterate over the entire `books` array and `console.log()` each book string.
 
 I'll code a solution when we return.
