@@ -38,11 +38,11 @@ In this module, students will be able to:
 
 ## Internal resources
 
-:file_folder: [Instructor Guide](./back-of-house/instructor-guide.md)
+:file_folder: [Instructor Guide](./internal-resources/instructor-guide.md)
 
-:video_camera: [Video Guide](./back-of-house/video-guide.md)
+:video_camera: [Video Guide](./internal-resources/video-guide/README.md)
 
-:building_construction: [Release Notes](./back-of-house/release-notes.md)
+:building_construction: [Release Notes](./internal-resources/release-notes.md)
 
 <hr>
 
