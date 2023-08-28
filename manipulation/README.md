@@ -1,6 +1,6 @@
-![JS arrays manipulation hero image](./assets/hero.png)
-
 # JS Arrays - Manipulation
+
+![JS arrays manipulation hero image](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array.
 

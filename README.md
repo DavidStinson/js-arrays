@@ -21,14 +21,15 @@ In this module, students will be able to:
 
 | Lesson | Delivery Time | Video |
 |--------------|:-------------:|:-----:|
-| [Setup](./setup/README.md)                                                     | 15 min | [Link]() |
-| [Concepts](./concepts/README.md)                                               | 15 min | [Link]() |
-| [Fundamentals](./fundamentals/README.md)                                       | 15 min | [Link]() |
-| [Manipulation](./manipulation/README.md)                                       | 15 min | [Link]() |
-| [Iteration](./iteration/README.md)                                             | 15 min | [Link]() |
-| [You Do](./you-do/README.md)                                                   | 15 min | [Link]() |
-| [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 15 min | [Link]() |
-| [Wrap Up](./wrap-up/README.md)                                                 | 15 min | [Link]() |
+| [Setup](./setup/README.md)                                                     | 8 min  | [Link]() |
+| [Concepts](./concepts/README.md)                                               | 4 min  | [Link]() |
+| [Fundamentals](./fundamentals/README.md)                                       | 20 min | [Link]() |
+| [Manipulation](./manipulation/README.md)                                       | 28 min | [Link]() |
+| [Iteration](./iteration/README.md)                                             | 10 min | [Link]() |
+| [You Do](./you-do/README.md)                                                   | 10 min | [Link]() |
+| [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 8 min  | [Link]() |
+| [Wrap Up](./wrap-up/README.md)                                                 | 4 min  | [Link]() |
+|  **Total Module** | 82 min | -- | 
 
 ## Additional content 
 

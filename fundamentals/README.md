@@ -1,6 +1,6 @@
-![Hero image](./assets/hero.png)
-
 # Intro to JS Arrays - Fundamentals
+
+![Hero image](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to create arrays and access elements within arrays using square bracket notation `[]` and the `array.at()` method.
 

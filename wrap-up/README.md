@@ -1,6 +1,6 @@
-![Hero image](./assets/hero.png)
-
 # JS Arrays - Wrap up
+
+![Hero image](./assets/hero.png)
 
 ## `join()` and other array methods 
 

@@ -1,6 +1,6 @@
-![Hero image](./assets/hero.png)
-
 # Intro to JS Arrays - Concepts
+
+![Hero image](./assets/hero.png)
 
 ## What are arrays?
 
