@@ -10,11 +10,11 @@
 In this module, students will be able to:
 
   - Clearly define the concept and significance of the "Array" data structure in JavaScript
-  - Create an array and access elements inside of it
-  - Apply methods to manipulate the elements within an array
-  - Apply methods to traverse and process each element in an array
+  - Create arrays and access elements within arrays using square bracket notation `[]` and the `array.at()` method.
+  - Manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array.
+  - *Iterate* through and carry out actions on each element in an array.
   - Practice creating, modifying, and iterating through an array of strings
-  - Apply methods to copy some or all of an array
+  - Make partial or full copies of an array.
 
 
 ## Content outline
