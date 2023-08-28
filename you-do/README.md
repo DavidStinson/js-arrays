@@ -11,5 +11,3 @@ Let's practice creating, modifying, and iterating over an array of strings!
 5. Update the second element by assigning to it **'Dune'** or another book of your choice.
 6. Insert **'Great Expectations'** or another book of your choice as a new second element (between **'Pride and Prejudice'** and **'Dune'** if you followed the examples above).
 7. Iterate over the entire `books` array and `console.log()` each book string.
-
-I'll code a solution when we return.

@@ -60,4 +60,4 @@ let color = colors[1];
 
 ## Wrapping up
 
-As you saw in this lesson, arrays are incredibly convenient ways to store data. Check out the level up content for more!
+As you saw in this lesson, arrays are incredibly convenient ways to store data. Check out the :rocket: **Level Up** content for more!
