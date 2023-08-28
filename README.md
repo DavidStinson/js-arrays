@@ -19,7 +19,7 @@ In this module, students will be able to:
 
 ## Content outline
 
-| Micro Lesson | Delivery Time | Video |
+| Lesson | Delivery Time | Video |
 |--------------|:-------------:|:-----:|
 | [Setup](./setup/README.md)                                                     | 15 min | [Link]() |
 | [Concepts](./concepts/README.md)                                               | 15 min | [Link]() |
@@ -38,7 +38,7 @@ In this module, students will be able to:
 
 ## Internal resources
 
-:file_folder: [Instructor Guide](./internal-resources/instructor-guide.md)
+:pencil: [Instructor Guide](./internal-resources/instructor-guide.md)
 
 :video_camera: [Video Guide](./internal-resources/video-guide/README.md)
 
