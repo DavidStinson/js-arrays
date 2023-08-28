@@ -1,6 +1,6 @@
-![Hero image](./assets/hero.png)
-
 # JS Arrays - Reference
+
+![Hero image](./assets/hero.png)
 
 ## JavaScript Arrays: Online Resources
 

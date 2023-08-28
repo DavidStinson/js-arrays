@@ -11,13 +11,13 @@ Here's some level up work related to JavaScript arrays!
   Want to see this in action? Try this out on the `movies` and `twoMovies` arrays from the lecture:
 
   ```js
-  console.log(movies)
-  console.log(twoMovies)
+  console.log(movies);
+  console.log(twoMovies);
 
-  movies[1] = 'Spider-man'
+  movies[1] = 'Spider-man';
 
-  console.log(movies)
-  console.log(twoMovies)
+  console.log(movies);
+  console.log(twoMovies);
   ```
 
   This can be a huge pain point in an application, so be careful of this behavior!

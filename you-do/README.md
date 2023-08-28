@@ -1,6 +1,6 @@
-![Hero image](./assets/hero.png)
-
 # 💪 You Do - 10 minutes
+
+![Hero image](./assets/hero.png)
 
 Let's practice creating, modifying, and iterating over an array of strings!
 

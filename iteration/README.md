@@ -1,6 +1,6 @@
-![Hero image](./assets/hero.png)
-
 # Intro to JS Arrays - Iteration
+
+![Hero image](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to *iterate* through and carry out actions on each element in an array.
 

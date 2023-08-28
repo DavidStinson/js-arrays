@@ -1,6 +1,6 @@
-![Hero image](../assets/hero.png)
-
 # Intro to JS Arrays - Instructor Guide
+
+![Hero image](../assets/hero.png)
 
 - **Start with the Basics**: Before diving into complex methods, ensure students understand the fundamental concept of arrays as ordered collections of elements. Use real-life analogies, such as a list of groceries or a line of students in a classroom, to illustrate the point.
 

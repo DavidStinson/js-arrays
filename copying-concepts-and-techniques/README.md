@@ -1,6 +1,6 @@
-![Hero image](./assets/hero.png)
-
 # Intro to JS Arrays - Copying Concepts and Techniques
+
+![Hero image](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to make partial or full copies of an array.
 
