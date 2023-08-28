@@ -1,27 +1,18 @@
-# Intro to JS Arrays - Instructor Guide
-
 ![Hero image](../assets/hero.png)
 
-## Micro Lesson 1
+# Intro to JS Arrays - Instructor Guide
 
-Aimed at new instructors, how to teach this lesson, key points to focus on, value to students
+- **Start with the Basics**: Before diving into complex methods, ensure students understand the fundamental concept of arrays as ordered collections of elements. Use real-life analogies, such as a list of groceries or a line of students in a classroom, to illustrate the point.
 
-1.
-2.
-3.
+- **Hands-on Practice**: Encourage students to actively code along during the lesson. Frequent, short exercises or challenges will help reinforce concepts and boost their confidence in working with arrays.
 
-## Micro Lesson 2
+- **Highlight Common Pitfalls**: Address typical mistakes beginners make, such as off-by-one errors with indexing, or the mutable nature of arrays that can lead to unintended side-effects. Demonstrating these common errors and their solutions can be highly beneficial.
 
-Aimed at new instructors, how to teach this lesson, key points to focus on, value to students
+- **Connect to Real-World Scenarios**: Provide practical examples of when and why arrays are used in real programming projects. This not only enhances understanding but also showcases the relevance of the topic in actual software development.
 
-1.
-2.
-3.
+<hr>
 
-## Micro Lesson 3
+:building_construction:  **Under Construction**
 
-Aimed at new instructors, how to teach this lesson, key points to focus on, value to students
-
-1.
-2.
-3.
+We are constantly working to improve our resources for instructors and students.
+**Want to contribute to this Instructor Guide?** [Let us know!](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)

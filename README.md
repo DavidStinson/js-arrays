@@ -4,12 +4,18 @@
 
 ## Module overview
 
-This module introduces foundational JavaScript array material with these learning objectives:
-- Describe the what and why of arrays in JavaScript
-- Create an array and access elements inside of it
-- Manipulate the elements of an array
-- Iterate through the elements of an array
-- Understand and apply various methods to copy some or all of an array
+
+### Learning Objectives
+
+In this module, students will be able to:
+
+  - Clearly define the concept and significance of the "Array" data structure in JavaScript
+  - Create an array and access elements inside of it
+  - Apply methods to manipulate the elements within an array
+  - Apply methods to traverse and process each element in an array
+  - Practice creating, modifying, and iterating through an array of strings
+  - Apply methods to copy some or all of an array
+
 
 ## Content outline
 
@@ -32,11 +38,11 @@ This module introduces foundational JavaScript array material with these learnin
 
 ## Internal resources
 
-:file_folder: [Instructor Guide](./back-of-house/instructor-guide.md)
+:file_folder: [Instructor Guide](./internal-resources/instructor-guide.md)
 
-:video_camera: [Video Guide](./back-of-house/video-guide.md)
+:video_camera: [Video Guide](./internal-resources/video-guide/README.md)
 
-:building_construction: [Release Notes](./back-of-house/release-notes.md)
+:building_construction: [Release Notes](./internal-resources/release-notes.md)
 
 <hr>
 

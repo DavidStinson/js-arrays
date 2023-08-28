@@ -24,4 +24,21 @@ Here's some level up work related to JavaScript arrays!
 
 - A **deep copy** also known as a **deep clone** creates a new array (or object) and also creates copies of every element or property, even if they are objects or arrays themselves. This ensures that the new copy is entirely independent of the original.
 
+
+
+
+- With a deep copy, the entire structure is duplicated, making the two arrays completely independent.
+
+- Using the JSON methods (with its known limitations):
+
+  ```JS
+  let movies = ['Best In Show', ['Alien', 'The Matrix'], 'Gladiator'];
+  let deepCopy = JSON.parse(JSON.stringify(movies));
+
+  deepCopy[1][0] = 'Prometheus';
+
+  console.log(movies);      // Outputs: ['Best In Show', ['Alien', 'The Matrix'], 'Gladiator']
+  console.log(deepCopy);    // Outputs: ['Best In Show', ['Prometheus', 'The Matrix'], 'Gladiator']
+  ```
+
 When you're dealing with extensive arrays, some methods might use more memory than others. Depending on your specific needs, choose a method that offers optimal performance. 
