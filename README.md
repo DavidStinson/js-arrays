@@ -4,18 +4,18 @@
 
 ## Module overview
 
+This module introduces arrays in JavaScript.
 
-### Learning Objectives
+### Learning objectives
 
 In this module, students will be able to:
 
-  - Clearly define the concept and significance of the "Array" data structure in JavaScript
+  - Clearly define the concept and significance of the array data structure in JavaScript
   - Create arrays and access elements within arrays using square bracket notation `[]` and the `array.at()` method.
   - Manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array.
-  - *Iterate* through and carry out actions on each element in an array.
+  - Iterate through and carry out actions on each element in an array.
   - Practice creating, modifying, and iterating through an array of strings
   - Make partial or full copies of an array.
-
 
 ## Content outline
 
@@ -33,21 +33,21 @@ In this module, students will be able to:
 
 ## Additional content 
 
-:rocket: [Level Up](./level-up/README.md)
+🚀 [Level Up](./level-up/README.md)
 
-:open_book: [Reference Materials](./references/README.md)
+📖 [Reference Materials](./references/README.md)
 
 ## Internal resources
 
-:pencil: [Instructor Guide](./internal-resources/instructor-guide.md)
+✏️ [Instructor Guide](./internal-resources/instructor-guide.md)
 
-:video_camera: [Video Guide](./internal-resources/video-guide/README.md)
+🎥 [Video Guide](./internal-resources/video-guide/README.md)
 
-:building_construction: [Release Notes](./internal-resources/release-notes.md)
+🏗️ [Release Notes](./internal-resources/release-notes.md)
 
 <hr>
 
-**Find a :space_invader: let us know!**
+**Find a 👾 bug 👾? let us know!**
 [Submit Feedback](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)
 
 <hr>

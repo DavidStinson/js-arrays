@@ -29,7 +29,3 @@ As demonstrated by the example above, the real-world problems you'll solve often
 ___
 📚 An *array* is a collection of elements stored in a specific order. Think of an array as a list or a container holding multiple values.
 ___
-
-```html
-<!-- The end of this line is our 80 character limit for a line of code !!!!! -->
-```
