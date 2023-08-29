@@ -1,0 +1,6 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  Setup
+
+setup-01
+
+- Chapter title: Setup

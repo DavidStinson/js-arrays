@@ -1,0 +1,18 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  Copying Concepts and Techniques
+
+copying-01
+
+- Chapter title: Copying concepts
+
+copying-02
+
+- Chapter title: Copy all of an array
+
+copying-03
+
+- Chapter title: Copy some of an array
+
+copying-04
+
+- Chapter title: Copy an array and insert additional elements

@@ -1,0 +1,14 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  Fundamentals
+
+fundamentals-01
+
+- Chapter title: Creating arrays
+
+fundamentals-02
+
+- Chapter title: Accessing elements at any position in an array
+
+fundamentals-03
+
+- Chapter title: Accessing the last element of an array

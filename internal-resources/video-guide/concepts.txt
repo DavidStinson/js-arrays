@@ -1,0 +1,12 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  Concepts
+
+concepts-01
+
+- Chapter title: What are arrays?
+- Slides: Video asset (concepts-01-slides) starting at 0:31 to the end of the chapter
+
+concepts-02
+
+- Chapter title: Why use arrays?
+- Slides: Video asset (concepts-02-slides) starting at 0:25 to the end of the chapter

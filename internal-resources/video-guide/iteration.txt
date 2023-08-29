@@ -1,0 +1,10 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  Iteration
+
+iteration-01
+
+- Chapter title: Using the forEach() iterator method
+
+iteration-02
+
+- Chapter title: Using a for...of loop

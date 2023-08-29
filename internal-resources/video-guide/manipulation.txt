@@ -1,0 +1,28 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  Manipulation
+
+manipulation-01
+
+- Chapter title: Updating existing elements in an array
+
+manipulation-02
+
+- Chapter title: Adding or removing elements at the start or end of an array
+
+- ADD: Asset - Need a transition at the end of this video for about 5-10 seconds that says something along the lines of: Pause now while you complete this You Do
+^^ If you have a good solution for this and are able to put this in that'd be awesome, and I'd definitely take it. If not I can also create an asset that can go here no problem.
+
+manipulation-03
+
+- Chapter title: Add element - You Do solution
+
+manipulation-04
+
+- Chapter title: Adding or removing elements anywhere in an array
+
+- ADD: Asset - Need a transition at the end of this video for about 5-10 seconds that says something along the lines of: Pause now while you complete this You Do
+^^ If you have a good solution for this and are able to put this in that'd be awesome, and I'd definitely take it. If not I can also create an asset that can go here no problem.
+
+manipulation-05
+
+- Chapter title: splice() - You Do solution

@@ -1,0 +1,13 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  You Do
+
+you-do-01
+
+- Chapter title: Intro
+
+- ADD: Asset - Need a transition at the end of this video for about 5-10 seconds that says something along the lines of: Pause now while you complete this You Do
+^^ If you have a good solution for this and are able to put this in that'd be awesome, and I'd definitely take it. If not I can also create an asset that can go here no problem. 
+
+you-do-02
+
+- Chapter title: Solution

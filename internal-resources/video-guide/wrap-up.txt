@@ -1,0 +1,6 @@
+Lecture title: Intro to JS Arrays
+Subtitle:  Wrap Up
+
+wrap-up-01
+
+- Chapter title: What are arrays?

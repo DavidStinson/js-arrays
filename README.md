@@ -20,7 +20,7 @@ In this module, students will be able to:
 ## Content outline
 
 | Lesson | Delivery Time | Video |
-|--------------|:-------------:|:-----:|
+| ------ |:-------------:|:-----:|
 | [Setup](./setup/README.md)                                                     | 8 min  | [Link]() |
 | [Concepts](./concepts/README.md)                                               | 4 min  | [Link]() |
 | [Fundamentals](./fundamentals/README.md)                                       | 20 min | [Link]() |
