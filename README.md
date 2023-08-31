@@ -10,26 +10,26 @@ This module introduces arrays in JavaScript.
 
 In this module, students will be able to:
 
-  - Clearly define the concept and significance of the array data structure in JavaScript
+  - Clearly define the concept and significance of the array data structure in JavaScript.
   - Create arrays and access elements within arrays using square bracket notation `[]` and the `array.at()` method.
   - Manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array.
   - Iterate through and carry out actions on each element in an array.
-  - Practice creating, modifying, and iterating through an array of strings
+  - Practice creating, modifying, and iterating through an array of strings.
   - Make partial or full copies of an array.
 
 ## Content outline
 
 | Lesson | Delivery Time | Video |
 | ------ |:-------------:|:-----:|
-| [Setup](./setup/README.md)                                                     | 8 min  | [Link]() |
-| [Concepts](./concepts/README.md)                                               | 4 min  | [Link]() |
-| [Fundamentals](./fundamentals/README.md)                                       | 20 min | [Link]() |
-| [Manipulation](./manipulation/README.md)                                       | 28 min | [Link]() |
-| [Iteration](./iteration/README.md)                                             | 10 min | [Link]() |
-| [You Do](./you-do/README.md)                                                   | 10 min | [Link]() |
-| [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 8 min  | [Link]() |
-| [Wrap Up](./wrap-up/README.md)                                                 | 4 min  | [Link]() |
-|  **Total Module** | 82 min | -- | 
+| [Setup](./setup/README.md)                                                     | 8 min  | [Link](https://generalassembly.wistia.com/medias/hgca7ip09j) |
+| [Concepts](./concepts/README.md)                                               | 4 min  | [Link](https://generalassembly.wistia.com/medias/y0yzp7urvi) |
+| [Fundamentals](./fundamentals/README.md)                                       | 20 min | [Link](https://generalassembly.wistia.com/medias/wzb2om0rlw) |
+| [Manipulation](./manipulation/README.md)                                       | 28 min | [Link](https://generalassembly.wistia.com/medias/3e37jzhaqo) |
+| [Iteration](./iteration/README.md)                                             | 10 min | [Link](https://generalassembly.wistia.com/medias/qjcxditu5j) |
+| [You Do](./you-do/README.md)                                                   | 10 min | [Link](https://generalassembly.wistia.com/medias/pvtlqiyzkv) |
+| [Copying Concepts and Techniques](./copying-concepts-and-techniques/README.md) | 8 min  | [Link](https://generalassembly.wistia.com/medias/13k6v742qk) |
+| [Wrap Up](./wrap-up/README.md)                                                 | 4 min  | [Link](https://generalassembly.wistia.com/medias/7yfc8cqyhr) |
+|  **Total Module**                                                              | 82 min | ---                                                          | 
 
 ## Additional content 
 

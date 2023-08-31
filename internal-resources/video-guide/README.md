@@ -6,9 +6,9 @@ Here you'll find the outlines and the assets used in video content, as well as t
 
 ## Video content
 
-:rock: [Originals]()
+🪨 [Originals](https://drive.google.com/drive/folders/1_-IO_pj_zjjDZI4ZAOK-jg6Yz3kv6q-a?usp=drive_link)
 
-:gem: [Finals]()
+💎 [Finals](https://generalassembly.wistia.com/projects/zunz2xmri6)
 
 ## Final creation notes and external content
 

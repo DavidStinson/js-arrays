@@ -4,9 +4,7 @@
 
 **Learning objective:** By the end of this lesson, students will be able to *iterate* through and carry out actions on each element in an array.
 
-___
-:books: *Iteration* is the process of repeatedly executing a set of instructions or looping through a collection of items (like an array or string) one by one until a certain condition is met or until no more items are left to process.
-___
+> 📚 *Iteration* is the process of repeatedly executing a set of instructions or looping through a collection of items (like an array or string) one by one until a certain condition is met or until no more items are left to process.
 
 ## Using the `forEach()` iterator method
 
@@ -22,9 +20,7 @@ movies.forEach(function(movie) {
 });
 ```
 
-___
-:trophy: It's recommended to name the first parameter (representing each item) as a singular form of the array's name. So, if your array is named `movies`, name the parameter `movie`.
-___
+> 🏆 It's recommended to name the first parameter (representing each item) as a singular form of the array's name. So, if your array is named `movies`, name the parameter `movie`.
 
 This code will result in the following output:
 
@@ -70,6 +66,4 @@ Barbie
 
 The loop exits early when it encounters 'The Matrix' thanks to the [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) statement. This highlights that, unlike `forEach()`, the `for...of` statement provides more control, such as the ability to exit early.
 
-___
-:warning: JavaScript also provides a `for...in` loop. It's designed mainly for iterating over an object's properties rather than array items. Be sure you're using the correct loop for your needs.
-___
+> ⚠️ JavaScript also provides a `for...in` loop. It's designed mainly for iterating over an object's properties rather than array items. Be sure you're using the correct loop for your needs.
