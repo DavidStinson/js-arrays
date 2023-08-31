@@ -2,7 +2,7 @@
 
 ![Setup hero image](./assets/hero.png)
 
-Open your Terminal application and navigate to your **`~/code/sei/lectures`** directory.
+Open your Terminal application and navigate to your **`~/code/sei/lectures`** directory:
 
 ```bash
 cd ~/code/sei/lectures
@@ -15,7 +15,7 @@ mkdir js-arrays
 cd js-arrays
 ```
 
-Then, create an **`app.js`** and an **`index.html`** file. These files will hold your work for this lecture.
+Then, create an **`app.js`** and an **`index.html`** file. These files will hold your work for this lecture:
 
 ```bash
 touch app.js index.html
@@ -27,7 +27,7 @@ With the files created, open the contents of the directory in VS Code:
 code .
 ```
 
-Open the **`index.html`** file and add HTML boilerplate. Then make use of the **`app.js`** file by adding this line inside the `head` tag:
+Open the **`index.html`** file and add HTML boilerplate. Then make use of the **`app.js`** file by adding this line inside the `<head>` tag:
 
 ```html
 <script defer src="./app.js"></script>

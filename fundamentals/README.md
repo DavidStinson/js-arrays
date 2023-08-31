@@ -26,7 +26,7 @@ There are two primary methods for initializing arrays:
 
 The best practice is to use _array literal notation_ because it's more concise. The class approach also [behaves differently](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array#array_constructor_with_a_single_parameter) if you pass only one argument. 
 
-### :wave: Hands-on: 1 min
+### 👋 Hands-on: 1 min
 
 Create an array named `movies` containing the titles (as strings) of three of your favorite movies.
 
@@ -43,16 +43,9 @@ const firstMovie = movies[0];
 
 Note that indexes are integers where `0` is used to access the first element. Each consecutive element has its index incremented by one.
 
-<hr>
+> 📚 An __index__ is a numerical value that represents the position of an element within an array.
 
-:books: An __index__ is a numerical value that represents the position of an element within an array.
-
-<hr>
-
-:brain: Remember that array indexes start from 0 for the first element. This "zero-based" indexing convention is used in programming to align with memory offset principles.
-
-<hr>
-
+> 🧠 Remember that array indexes start from 0 for the first element. This "zero-based" indexing convention is used in programming to align with memory offset principles.
 
 ## Accessing the last element of an array
 

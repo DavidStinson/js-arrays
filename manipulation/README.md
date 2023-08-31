@@ -29,9 +29,7 @@ movies = ['Barbie', 'Arrival']
 
 But when we change the contents of the existing array, everything checks out fine!
 
-___
-:books: *Mutation* is the modification of the content of a data structure or variable. This contrasts with *immutability*, where data cannot be changed once created.
-___
+> 📚 *Mutation* is the modification of the content of a data structure or variable. This contrasts with *immutability*, where data cannot be changed once created.
 
 ## Adding or removing elements at the start or end of an array
 
