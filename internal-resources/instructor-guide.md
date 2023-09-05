@@ -2,6 +2,37 @@
 
 ![Hero image](../assets/hero-secondary.png)
 
+## `splice()`
+
+The `splice()` and `slice()` methods present a great opportunity to get some more hands-on time with the MDN documentation - look over their docs before delivering this content live and be prepared to discuss the highlights of the documentation, like the summary, its syntax, what it returns, etc.
+
+## You Do solution - books
+
+Here's a possible solution to the main You Do section:
+
+```js
+const books = [];
+
+books.push('The Shining');
+
+books.unshift('Pride and Prejudice');
+
+console.log(books[1]);
+
+books[1] = 'Dune';
+
+// books is ['Pride and Prejudice', 'Dune']
+//                    0               1 
+
+books.splice(1, 0, 'Great Expectations');
+
+books.forEach(function (book) {
+  console.log(book);
+});
+```
+
+## General tips
+
 - **Start with the Basics**: Before diving into complex methods, ensure students understand the fundamental concept of arrays as ordered collections of elements. Use real-life analogies, such as a list of groceries or a line of students in a classroom, to illustrate the point.
 
 - **Hands-on Practice**: Encourage students to actively code along during the lesson. Frequent, short exercises or challenges will help reinforce concepts and boost their confidence in working with arrays.
