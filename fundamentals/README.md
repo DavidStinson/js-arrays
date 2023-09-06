@@ -2,7 +2,7 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create arrays and access elements within arrays using square bracket notation `[]` and the `array.at()` method.
+**Learning objective:** By the end of this lesson, students will be able to create arrays and access elements within arrays using square bracket notation `[]` and an array's `at()` method.
 
 ## Creating arrays
 
@@ -53,7 +53,7 @@ You can use a couple of techniques to access the last element in an array - the 
 
 ### The `length` property
 
-To access the last element of an array, you can utilize the [length](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) property.
+To access the last element of an array, you can utilize the [`length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) property.
 
 ```js
 const lastMovie = movies[movies.length - 1];
@@ -68,11 +68,11 @@ movies[-1];  // undefined
 
 ### The `at()` method
 
-In ES2022, the `at()` method was added to the JavaScript spec. The `at()` method can directly access elements by their index. It's not that different from square bracket notation at first glance, except it does accept negative indexes! This can be used to access the last item in an array easily: 
+In ES2022, the [`at()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at) method was added to the JavaScript spec. The `at()` method can directly access elements by their index. It's not that different from square bracket notation at first glance, except it does accept negative indexes! This can be used to access the last item in an array easily: 
 
 ```js
 const lastMovieAt = movies.at(-1);  
 // lastMovieAt is 'Get Out'
 ```
 
-The `.at()` method improves code readability, especially when executing complex array manipulations.
+The `at()` method improves code readability, especially when executing complex array manipulations.

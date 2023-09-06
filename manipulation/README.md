@@ -16,9 +16,9 @@ movies[1] = 'Arrival';
 // movies is now ['Barbie', 'Arrival', 'Get Out']
 ```
 
-Wait though, isn't `movies` a constant? How are we able to modify its contents? 
+Wait though, wasn't `movies` defined using const? How are we able to modify its contents? 
 
-When we made `movies` a constant, we told JavaScript not to let us change what `movies`  points at (a specific array). It is not, however, saying that the contents of that array cannot be *mutated* or altered. In short, if we try doing something like the examples below, we'll get an error:
+When we made `movies`, we told JavaScript not to let us change what `movies` points at (a specific array). It is not, however, saying that the contents of that array cannot be *mutated* (altered). In short, if we try doing something like the examples below, we'll get an error:
 
 ```js
 // attempting to change the movies constant to a string
@@ -59,7 +59,7 @@ Here, we've added two items to the array by passing multiple arguments to the me
 
 ### `pop()`
 
-We can remove a single element from the **end** of an array using the `pop()` method:
+We can remove a single element from the **end** of an array using the [`pop()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop) method:
 
 ```js
 movies.pop();
@@ -68,7 +68,7 @@ movies.pop();
 
 ### `shift()`
 
-We can also remove from the **front** of an array with `shift()`:
+We can also remove from the **front** of an array with [`shift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift):
 
 ```js
 movies.shift();
@@ -85,7 +85,7 @@ const removedMovie = movies.shift();
 
 ### Remembering the `push()`, `pop()`, `unshift()`, and `shift()` methods.
 
-Here's a device you can use to potentially help you remember the functions of all of these methods:
+Here's a way to help you remember the functions of all of these methods:
 
 ```text
 The methods with longer names **add** to an array
@@ -97,7 +97,7 @@ shift <- [...] -> pop
 
 Don't get too caught up in remembering things like this though; MDN, Google, and AI assistants are there to help you remember the things you might get turned around on or forget.
 
-### :muscle: You Do - 1 minute
+### 💪 You Do - 1 minute
 
 Add a movie of your choice to the end of the array!
 
@@ -150,7 +150,7 @@ removedMovies = movies.splice(2, 2, 'Black Panther');
 
 As you saw, the `splice()` method always returns an array containing the removed elements (an empty array if no elements were removed).
 
-### :muscle: You Do - 1 minute
+### 💪 You Do - 1 minute
 
 Here's the data currently held by `movies`:
 

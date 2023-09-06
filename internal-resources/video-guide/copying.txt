@@ -1,5 +1,5 @@
 Lecture title: Intro to JS Arrays
-Subtitle:  Copying Concepts and Techniques
+Subtitle:  Copying
 
 copying-01
 

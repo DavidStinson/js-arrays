@@ -21,7 +21,7 @@ movieString = movies.join(' -- ');
 
 There are many other useful array methods like `join()` above that we haven't covered here. Be sure to reference documentation such as that provided by MDN or do a Google search when you encounter road blocks - often you don't need to reinvent the wheel since many array methods will help complete common tasks.
 
-## :question: Review Questions
+## ❓ Review Questions
 
 <details>
   <summary>(1) In your own words, what's an array?</summary>

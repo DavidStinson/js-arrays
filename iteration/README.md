@@ -2,13 +2,13 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to *iterate* through and carry out actions on each element in an array.
+**Learning objective:** By the end of this lesson, students will be able to *iterate* through and perform actions on each element in an array.
 
 > 📚 *Iteration* is the process of repeatedly executing a set of instructions or looping through a collection of items (like an array or string) one by one until a certain condition is met or until no more items are left to process.
 
 ## Using the `forEach()` iterator method
 
-While the traditional `for` statement can be used to iterate over an array, the [`forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) method is a more expressive and readable way to iterate over **all** array elements. This method clearly showcases a developer's intention to process each item.
+The traditional `for` statement can be used to iterate over an array in an imperative way - where we provide each step the computer should take to carry out an action. The [`forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) method is a declarative approach that provides a more readable way to iterate over **all** array elements. This method clearly showcases a developer's intention to process each item perform an action on each.
 
 Let's try it out:
 
@@ -50,7 +50,7 @@ Which will result in the following output:
 
 ## Using a `for...of` loop
 
-The `for...of` statement offers a concise way to iterate over arrays (and other iterable structures like strings):
+The [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) statement offers a concise way to iterate over arrays (and other iterable structures like strings):
 
 ```js
 for (let movie of movies) {
