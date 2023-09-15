@@ -2,77 +2,21 @@
 
 ![Hero image](./assets/hero.png)
 
-**Learning objective:** By the end of this lesson, students will be able to create arrays and access elements within arrays using square bracket notation `[]` and an array's `at()` method.
+**Learning objective:** By the end of this lesson, students will understand the syntax of creating arrays and the anatomy of an array.
 
 ## Creating arrays
 
-There are two primary methods for initializing arrays:
+Use array literal notation to create an array using the following syntax:
 
-1. **Array literal notation (recommended)**
-  
-   Using array literal notation is the preferred way to create arrays. It involves defining an array using square brackets and listing its elements.
+![A line of code reading: const nums = [2, 4, 18];. Elements of the code are numbered: 1) const, 2) nums, 3) the square brackets, 4) the numbers inside of the square brackets.](assets/array-syntax.png)
 
-   ```js
-   const numsLiteral = [2, 4, 18];
-   ```
+1) The `const` keyword. Arrays should be declared using `const`.
+2) The name of the array should be plural.
+3) Opening and closing square brackets indicate an array.
+4) The array's elements are placed inside the square brackets. A comma separates each element, meaning the above array has been initialized with three elements. You don't have to include elements when initializing an array; use a set of empty square brackets - `[]`.
 
-2. **Array class (less common)**
-   
-   Although it's less commonly used, the `Array` class can also create arrays. It requires passing elements as arguments.
+> 🏆 The name of an array should always be plural because it holds a collection of items. The array above is called `nums` because it holds numbers inside of it. Even if an array 
 
-   ```js
-   const numsClass = new Array(2, 4, 18);
-   ```
-
-The best practice is to use _array literal notation_ because it's more concise. The class approach also [behaves differently](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array#array_constructor_with_a_single_parameter) if you pass only one argument. 
-
-### 👋 Hands-on: 1 min
+### 🧠 You Do
 
 Create an array named `movies` containing the titles (as strings) of three of your favorite movies.
-
-## Accessing elements at any position in an array
-
-Array elements are accessed using square bracket notation along with the element's __index__ (position) within the array.
-
-```js
-const movies = ['Barbie', 'Interstellar', 'Get Out'];
-
-const firstMovie = movies[0];
-// firstMovie is 'Barbie'
-```
-
-Note that indexes are integers where `0` is used to access the first element. Each consecutive element has its index incremented by one.
-
-> 📚 An __index__ is a numerical value that represents the position of an element within an array.
-
-> 🧠 Remember that array indexes start from 0 for the first element. This "zero-based" indexing convention is used in programming to align with memory offset principles.
-
-## Accessing the last element of an array
-
-You can use a couple of techniques to access the last element in an array - the classic `length` property, or one of the more recent additions to JavaScript - the `at()` method.
-
-### The `length` property
-
-To access the last element of an array, you can utilize the [`length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) property.
-
-```js
-const lastMovie = movies[movies.length - 1];
-// lastMovie is 'Get Out'
-```
-
-Unlike other programming languages, JavaScript does not support negative indexing using this method. Attempting to access an array element with a negative index will result in a value of `undefined`.
-
-```js
-movies[-1];  // undefined
-```
-
-### The `at()` method
-
-In ES2022, the [`at()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at) method was added to the JavaScript spec. The `at()` method can directly access elements by their index. It's not that different from square bracket notation at first glance, except it does accept negative indexes! This can be used to access the last item in an array easily: 
-
-```js
-const lastMovieAt = movies.at(-1);  
-// lastMovieAt is 'Get Out'
-```
-
-The `at()` method improves code readability, especially when executing complex array manipulations.
