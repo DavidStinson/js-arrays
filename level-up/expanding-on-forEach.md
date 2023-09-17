@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Level Up - Expanding on `forEach()`
+# Intro to JavaScript Arrays - Level Up - Expanding on `forEach()`
 
 ![Hero image](./assets/hero.png)
 

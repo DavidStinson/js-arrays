@@ -1,4 +1,4 @@
-# Setup
+# Intro to JavaScript Arrays - Setup
 
 ![Setup hero image](./assets/hero.png)
 

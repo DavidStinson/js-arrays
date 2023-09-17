@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Level Up - `at()`
+# Intro to JavaScript Arrays - Level Up - `at()`
 
 ![Hero image](./assets/hero.png)
 

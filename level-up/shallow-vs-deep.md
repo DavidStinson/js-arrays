@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Level Up - Shallow vs. Deep Copies of Arrays
+# Intro to JavaScript Arrays - Level Up - Shallow vs. Deep Copies of Arrays
 
 ![Hero image](./assets/hero.png)
 

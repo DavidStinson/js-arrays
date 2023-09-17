@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Instructor Guide
+# Intro to JavaScript Arrays - Instructor Guide
 
 ![Hero image](../assets/hero-secondary.png)
 

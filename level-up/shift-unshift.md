@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Level Up - `shift()` and `unshift()`
+# Intro to JavaScript Arrays - Level Up - `shift()` and `unshift()`
 
 ![Hero image](./assets/hero.png)
 

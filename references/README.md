@@ -1,4 +1,4 @@
-# JS Arrays - Reference
+# Intro to JavaScript Arrays - Reference
 
 ![Hero image](./assets/hero.png)
 
