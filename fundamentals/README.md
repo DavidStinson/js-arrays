@@ -15,8 +15,12 @@ Use array literal notation to create an array using the following syntax:
 3) Opening and closing square brackets indicate an array.
 4) The array's elements are placed inside the square brackets. A comma separates each element, meaning the above array has been initialized with three elements. You don't have to include elements when initializing an array; use a set of empty square brackets - `[]`.
 
-> 🏆 The name of an array should always be plural because it holds a collection of items. The array above is called `nums` because it holds numbers inside of it. Even if an array 
+> 🏆 The name of an array should always be plural because it holds a collection of items. The array above is named `nums` because it holds numbers inside of it.
+
+An array can hold any data inside of it (including other arrays!) and can even hold multiple data types.  
 
 ### 🧠 You Do
 
 Create an array named `movies` containing the titles (as strings) of three of your favorite movies.
+
+If you want your notes to match the lecture examples, use *Barbie*, *Interstellar*, and *Get Out*.

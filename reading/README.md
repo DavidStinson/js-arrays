@@ -17,7 +17,7 @@ const firstMovie = movies[0];
 
 Note that indexes are integers where `0` is used to access the first element. Each consecutive element has its index incremented by one.
 
-> 📚 An __index__ is a numerical value that represents the position of an element within an array.
+> 📚 An *index* is a numerical value that represents the position of an element within an array.
 
 > 🧠 Remember that array indexes start from 0 for the first element. This "zero-based" indexing convention is used in programming to align with memory offset principles.
 
@@ -39,5 +39,12 @@ Unlike other programming languages, JavaScript does not support negative indexin
 ```js
 movies[-1];  // undefined
 ```
+
+> ❓ Assuming the below code, what will the value of the variable `color` be?
+>
+> ```js
+> const colors = ['red', 'green', 'blue'];
+> let color = colors[1];
+> ```
 
 > 🚀 Check out the [`at()` Level Up](../level-up/at.md) if you're curious about accessing the last element of an array in a more concise way!

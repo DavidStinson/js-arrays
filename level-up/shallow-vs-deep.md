@@ -1,8 +1,8 @@
-# Shallow vs. Deep Copies of Arrays
+# Intro to JS Arrays - Level Up - Shallow vs. Deep Copies of Arrays
 
 ![Hero image](./assets/hero.png)
 
-**Shallow vs. Deep Copy**: It's important to note that the techniques we've discussed in this module perform a **shallow copy** of the array. This implies that if your array has objects, the copy will reference the same objects, not create fresh ones. Therefore, any modifications to the objects in the original array will be reflected in the copied array.
+**Shallow vs. Deep Copy**: It's important to note that the techniques we've discussed in the [Copying Level Up](./copying.md) perform a **shallow copy** of the array. This implies that if your array has objects, the copy will reference the same objects, not create fresh ones. Therefore, any modifications to the objects in the original array will be reflected in the copied array.
 
 Want to see this in action? Try this out on the `movies` and `twoMovies` arrays from the lecture:
 

@@ -1,8 +1,6 @@
-# Intro to JS Arrays - Copying
+# Intro to JS Arrays - Level Up - Copying
 
 ![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to make partial or full copies of an array.
 
 When working with arrays in JavaScript, there are scenarios where you will want to create a copy of an array rather than modifying the original one. This can prevent unintended side effects in your code, or you might want to derive a new list from the original without affecting the original.
 
