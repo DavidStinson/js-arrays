@@ -4,7 +4,7 @@
 
 ## `join()` example
 
-The array `join()` method combines all of the string elements in an array and returns a single string:
+The array [`join()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) method combines all of the string elements in an array and returns a single string:
 
 ```js
 // as a reminder, movies is ['Barbie', 'Arrival', 'Get Out', 'Coco']

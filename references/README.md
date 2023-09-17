@@ -2,22 +2,41 @@
 
 ![Hero image](./assets/hero.png)
 
-## Lesson References 
+## Lesson references 
 
 Links from the module lesson content:
 
-- [Array literal notation vs class notation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Array#array_constructor_with_a_single_parameter) 
+- [MDN - Arrays](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
-- [Array length property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
+- [MDN - Array `length` property](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length)
 
-- [Array .splice() method docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice)
+- [MDN - Array `push()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/push)
 
-- [Using the break statement in Loops](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)
+- [MDN - Array `pop()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/pop)
 
-- [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [MDN - `for...of` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of)
 
+- [MDN - `break` statement](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break)
 
-## Online Resources
+- [MDN - Array `forEach()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+
+## Level Up references
+
+- [MDN - Array `at()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/at)
+
+- [MDN - Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+
+- [MDN - Array `slice()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice)
+
+- [MDN - Array `join()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join)
+
+- [MDN - `structuredClone()` global function](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone)
+
+- [MDN - Array `unshift()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift)
+
+- [MDN - Array `shift()` method](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/shift)
+
+## Online resources
 
 JavaScript arrays are fundamental to the language, high-quality resources can help deepen your understanding.
 
@@ -34,7 +53,3 @@ Here are some recommended ones:
 
 4. [Eloquent JavaScript](https://eloquentjavascript.net/04_data.html)
    - Description: A popular book by Marijn Haverbeke available online for free. This chapter provides a deep dive into arrays and objects.
-
-
-
-  
