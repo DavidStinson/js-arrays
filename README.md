@@ -43,4 +43,4 @@ This module introduces arrays in JavaScript.
 ---
 
 **Find a 👾 bug 👾? let us know!**
-[Submit Feedback](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)
+[Submit Feedback](https://ga.co/curriculum-feedback)
