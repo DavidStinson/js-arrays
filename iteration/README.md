@@ -67,25 +67,10 @@ Get Out
 Coco
 ```
 
-The `for...of` loop also lets you easily stop the execution of a loop with the `break` statement.
-
-```js
-for (let movie of movies) {
-  if (movie === 'Get Out') break;
-  console.log(movie);
-}
-```
-This results in the following output: 
-
-```text
-Barbie
-Arrival
-```
-
-Thanks to the [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) statement, the loop exits early when it encounters `'Get Out'`. The `for...of` statement provides extra control when iterating, like this ability to exit early easily.
-
 > 📚 When using *imperative* programming, you instruct the computer how to achieve a specific outcome step by step. When using *declarative* programming, you tell the computer the desired outcome, omitting the finer details. A mnemonic may be helpful to remember this:
 > - ***I***mperative programming requires ***i***nstructions to carry out a task.
 > - ***D***eclarative programming is a ***d***ecree unconcerned with how the result happens, just that it does.
+
+A `for...of` loop has couple of extra unique features in addition to this more declarative approach. Check out the [`break` and `continue` Level Up](../level-up/break.md) for more.
 
 > ⚠️ JavaScript also provides a `for...in` loop. It's designed mainly for iterating over an object's properties rather than array items. Be sure you're using the correct loop for your needs.

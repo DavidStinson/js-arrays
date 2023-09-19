@@ -22,9 +22,9 @@ When we made `movies`, we told JavaScript not to let us change what `movies` poi
 
 ```js
 // attempting to change the movies constant to a string
-movies = 'Barbie and Arrival'
+movies = 'Barbie and Arrival';
 // attempting to change the movies constant to a different array (even if the contents of that array are identical)
-movies = ['Barbie', 'Arrival', 'Get Out']
+movies = ['Barbie', 'Arrival', 'Get Out'];
 ```
 
 But when we change the contents of the existing array, everything checks out fine!

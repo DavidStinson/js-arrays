@@ -7,8 +7,8 @@
 Just like `push()`, [`unshift()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift) allows us to add one or multiple items to an array, this time at the start of the array.
 
 ```js
-movies.unshift('Dune', 'Coco');
-// movies is ['Dune', 'Coco', 'Barbie', 'Arrival', 'Get Out', 'Parasite']
+movies.unshift('Dune', 'John Wick');
+// movies is ['Dune', 'John Wick', 'Barbie', 'Arrival', 'Get Out', 'Coco']
 ```
 
 Here, we've added two items to the array by passing multiple arguments to the method.
@@ -20,15 +20,15 @@ We can also remove from the **front** of an array with [`shift()`](https://devel
 
 ```js
 movies.shift();
-// movies is ['Coco', 'Barbie', 'Arrival', 'Get Out']
+// movies is ['John Wick', 'Barbie', 'Arrival', 'Get Out', 'Coco']
 ```
 
 `shift()` removes only one element at a time and don’t take any arguments. These methods both return the element that was removed from the array:
 
 ```js
 const removedMovie = movies.shift();
-// movies is ['Barbie', 'Arrival', 'Get Out']
-// removedMovie is 'Coco'
+// movies is ['Barbie', 'Arrival', 'Get Out', 'Coco']
+// removedMovie is 'John Wick'
 ```
 
 ### Remembering the `push()`, `pop()`, `unshift()`, and `shift()` methods.

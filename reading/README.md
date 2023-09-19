@@ -26,7 +26,7 @@ Note that indexes are integers where `0` is used to access the first element. Ea
 The [`length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) property on an array can be used to quickly see how many elements an array contains. For example:
 
 ```js
-console.log(movies.length)
+console.log(movies.length);
 // `3` is logged to the console
 ```
 

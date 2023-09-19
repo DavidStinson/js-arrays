@@ -26,13 +26,15 @@ With a deep copy, the entire structure is duplicated, making the two arrays comp
 - The newer [`structuredClone()`](https://developer.mozilla.org/en-US/docs/Web/API/structuredClone) global function, demonstrated below
 
   ```JS
-  let movies = ['Best In Show', ['Alien', 'The Matrix'], 'Gladiator'];
+  // movies is ['Barbie', 'Arrival', 'Get Out', 'Coco']
   let deepCopy = structuredClone(movies);
 
-  deepCopy[1][0] = 'Prometheus';
+  deepCopy[1] = 'Prometheus';
 
-  console.log(movies);      // Outputs: ['Best In Show', ['Alien', 'The Matrix'], 'Gladiator']
-  console.log(deepCopy);    // Outputs: ['Best In Show', ['Prometheus', 'The Matrix'], 'Gladiator']
+  console.log(movies);      
+  // Output: ['Barbie', 'Arrival', 'Get Out', 'Coco']
+  console.log(deepCopy);
+  // Output: ['Barbie', 'Prometheus', 'Get Out', 'Coco']
   ```
 
 Keep in mind you don't always need to deeply clone something - you should only do this when you need to make a full independent copy of an array because deeply cloning it effectively doubles the memory consumed by the data.

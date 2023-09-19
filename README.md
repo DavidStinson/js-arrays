@@ -27,8 +27,9 @@ This module introduces arrays in JavaScript.
 ### 🚀 Level Up 
 
 - [`at()`](./level-up/at.md)
-- [Expanding on `forEach()`](./level-up/expanding-on-forEach.md)
 - [`shift()` and `unshift()`](./level-up/shift-unshift.md)
+- [Expanding on `forEach()`](./level-up/expanding-on-forEach.md)
+- [`break` and `continue`](./level-up/break-and-continue.md)
 - [Copying Arrays](./level-up/copying.md)
 - [Shallow vs. Deep Copies of Arrays](./level-up/shallow-vs-deep.md)
 

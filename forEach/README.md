@@ -37,7 +37,9 @@ We'll start with the simplest callback function we can:
 ```js
 // as a reminder, movies is ['Barbie', 'Arrival', 'Get Out', 'Coco']
 
-movies.forEach(movie => console.log(movie));
+movies.forEach((movie) => {
+  console.log(movie)
+});
 ```
 
 > 🏆 It's recommended to name the first parameter (representing each item) as a singular form of the array's name. So, if your array is named `movies`, name the parameter `movie`.
