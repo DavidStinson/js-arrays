@@ -21,24 +21,27 @@ Note that indexes are integers where `0` is used to access the first element. Ea
 
 > 🧠 Remember that array indexes start from 0 for the first element. This "zero-based" indexing convention is used in programming to align with memory offset principles.
 
-## Accessing the last element of an array
+## The `length` property
 
-You can use a couple of techniques to access the last element in an array - the classic `length` property, or one of the more recent additions to JavaScript - the `at()` method.
+The [`length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) property on an array can be used to quickly see how many elements an array contains. For example:
 
-### The `length` property
+```js
+console.log(movies.length)
+// `3` is logged to the console
+```
 
-To access the last element of an array, you can utilize the [`length`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/length) property.
+Given the code above, the number 3 is printed to the console because the `movies` array contains 3 elements.
+
+### Using `length` to access the last element of an array
+
+To access the last element of an array, you can utilize the `length` property.
 
 ```js
 const lastMovie = movies[movies.length - 1];
 // lastMovie is 'Get Out'
 ```
 
-Unlike other programming languages, JavaScript does not support negative indexing using this method. Attempting to access an array element with a negative index will result in a value of `undefined`.
-
-```js
-movies[-1];  // undefined
-```
+This works because the code `movies.length - 1` will resolve to the number 2, and the item held in the 2 index of the `movies` array is `'Get Out'`.
 
 > ❓ Assuming the below code, what will the value of the variable `color` be?
 >
