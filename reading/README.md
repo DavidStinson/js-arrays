@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Reading 
+# Intro to JavaScript Arrays - Reading 
 
 ![Hero image](./assets/hero.png)
 

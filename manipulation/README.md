@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Manipulation
+# Intro to JavaScript Arrays - Manipulation
 
 ![JS arrays manipulation hero image](./assets/hero.png)
 

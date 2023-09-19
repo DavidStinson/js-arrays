@@ -1,4 +1,4 @@
-# Intro to JS Arrays
+# Intro to JavaScript Arrays
 
 ![Hero image](./assets/hero.png)
 
@@ -43,5 +43,5 @@ This module introduces arrays in JavaScript.
 
 ---
 
-**Find a 👾 bug 👾? let us know!**
-[Submit Feedback](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)
+**Find a 👾 bug 👾? Let us know!**
+[Submit Feedback](https://ga.co/curriculum-feedback)

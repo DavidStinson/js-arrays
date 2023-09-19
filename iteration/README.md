@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Iteration
+# Intro to JavaScript Arrays - Iteration
 
 ![Hero image](./assets/hero.png)
 

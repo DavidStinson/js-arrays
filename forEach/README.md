@@ -1,4 +1,4 @@
-# Intro to JS Arrays - `forEach()`
+# Intro to JavaScript Arrays - `forEach()`
 
 ![Hero image](./assets/hero.png)
 

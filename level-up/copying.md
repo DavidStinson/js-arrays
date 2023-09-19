@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Level Up - Copying
+# Intro to JavaScript Arrays - Level Up - Copying
 
 ![Hero image](./assets/hero.png)
 

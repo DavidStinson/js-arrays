@@ -1,4 +1,4 @@
-Lecture title: Intro to JS Arrays
+Lecture title: Intro to JavaScript Arrays
 Subtitle:  Copying
 
 copying-01
