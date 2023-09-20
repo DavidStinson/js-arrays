@@ -34,5 +34,5 @@ books.forEach((book) => console.log(book));
 
 We are constantly working to improve our resources for instructors and students.
 
-**Want to contribute to this Instructor Guide?** [Let us know](https://ga.co/curriculum-feedback)!
+**Have something to contribute to this Instructor Guide?** [Let us know](https://ga.co/curriculum-feedback).
   
