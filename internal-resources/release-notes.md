@@ -1,4 +1,4 @@
-# Intro to JS Arrays - Release Notes
+# Intro to JavaScript Arrays - Release Notes
 
 ![Hero image](../assets/hero-secondary.png)
 

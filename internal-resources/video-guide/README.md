@@ -1,4 +1,4 @@
-# Video Hub
+# Intro to JavaScript Arrays - Video Hub
 
 ![Hero image](../../assets/hero-secondary.png)
 

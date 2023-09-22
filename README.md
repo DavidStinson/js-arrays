@@ -1,4 +1,4 @@
-# Intro to JS Arrays
+# Intro to JavaScript Arrays
 
 ![Hero image](./assets/hero.png)
 
@@ -10,16 +10,15 @@ This module introduces arrays in JavaScript.
 
 | Lesson | Delivery Time | Video | Learning Objective |
 | ------ |:-------------:|:-----:| ------------------ |
-| [Setup](./setup/README.md)               | 8 min  | [Link](https://generalassembly.wistia.com/medias/hgca7ip09j) | ---                                                                                                    |
-| [Concepts](./concepts/README.md)         | 4 min  | [Link](https://generalassembly.wistia.com/medias/y0yzp7urvi) | Define the significance of the array data structure in JavaScript.                                     |
-| [Fundamentals](./fundamentals/README.md) | 10 min | [Link](https://generalassembly.wistia.com/medias/wzb2om0rlw) | Understand the syntax of creating arrays and the anatomy of an array.                                  |
-| [Reading](./reading/README.md)           | 10 min | [Link]()                                                     | Access data at anywhere in an array.                                                                   |
-| [Manipulation](./manipulation/README.md) | 28 min | [Link](https://generalassembly.wistia.com/medias/3e37jzhaqo) | Manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array. |
-| [Iteration](./iteration/README.md)       | 10 min | [Link](https://generalassembly.wistia.com/medias/qjcxditu5j) | Iterate through and carry out actions on each element in an array.                                     |
-| [You Do](./you-do/README.md)             | 10 min | [Link](https://generalassembly.wistia.com/medias/pvtlqiyzkv) | Practice creating, modifying, and iterating through an array of strings.                               |
-| [Copying](./copying/README.md)           | 8 min  | [Link](https://generalassembly.wistia.com/medias/13k6v742qk) | Make partial or full copies of an array.                                                               |
-| [Wrap Up](./wrap-up/README.md)           | 4 min  | [Link](https://generalassembly.wistia.com/medias/7yfc8cqyhr) | ---                                                                                                    |
-|  **Total Module**                        | 82 min | ---                                                          | ---                                                                                                    |
+| [Setup](./setup/README.md)               | --- | --- | ---                                                                                                    |
+| [Concepts](./concepts/README.md)         | --- | --- | Define the significance of the array data structure in JavaScript.                                     |
+| [Fundamentals](./fundamentals/README.md) | --- | --- | Understand the syntax of creating arrays and the anatomy of an array.                                  |
+| [Reading](./reading/README.md)           | --- | --- | Access data at anywhere in an array.                                                                   |
+| [Manipulation](./manipulation/README.md) | --- | --- | Manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array. |
+| [Iteration](./iteration/README.md)       | --- | --- | Iterate through and carry out actions on each element in an array.                                     |
+| [`forEach()`](./forEach/README.md)       | --- | --- | Iterate through and carry out actions on each element in an array using the `forEach()` method.        |
+| [You Do](./you-do/README.md)             | --- | --- | Practice creating, modifying, and iterating through an array of strings.                               |
+|  **Total Module**                        | --- | --- | ---                                                                                                    |
 
 ## Additional content 
 
@@ -27,10 +26,12 @@ This module introduces arrays in JavaScript.
 
 ### 🚀 Level Up 
 
-[Level Up](./level-up/README.md)
-
-- [Shallow vs. Deep Copies of Arrays](./level-up/shallow-vs-deep.md)
 - [`at()`](./level-up/at.md)
+- [`shift()` and `unshift()`](./level-up/shift-unshift.md)
+- [Expanding on `forEach()`](./level-up/expanding-on-forEach.md)
+- [`break` and `continue`](./level-up/break-and-continue.md)
+- [Copying Arrays](./level-up/copying.md)
+- [Shallow vs. Deep Copies of Arrays](./level-up/shallow-vs-deep.md)
 
 ## Internal resources
 
@@ -42,5 +43,4 @@ This module introduces arrays in JavaScript.
 
 ---
 
-**Find a 👾 bug 👾? let us know!**
-[Submit Feedback](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**

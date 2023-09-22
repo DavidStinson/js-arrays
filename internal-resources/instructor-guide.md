@@ -1,10 +1,6 @@
-# Intro to JS Arrays - Instructor Guide
+# Intro to JavaScript Arrays - Instructor Guide
 
 ![Hero image](../assets/hero-secondary.png)
-
-## `splice()`
-
-The `splice()` and `slice()` methods present a great opportunity to get some more hands-on time with the MDN documentation - look over their docs before delivering this content live and be prepared to discuss the highlights of the documentation, like the summary, its syntax, what it returns, etc.
 
 ## You Do solution - books
 
@@ -13,22 +9,13 @@ Here's a possible solution to the main You Do section:
 ```js
 const books = [];
 
-books.push('The Shining');
-
-books.unshift('Pride and Prejudice');
+books.push('The Shining', 'Pride and Prejudice');
 
 console.log(books[1]);
 
 books[1] = 'Dune';
 
-// books is ['Pride and Prejudice', 'Dune']
-//                    0               1 
-
-books.splice(1, 0, 'Great Expectations');
-
-books.forEach(function (book) {
-  console.log(book);
-});
+books.forEach((book) => console.log(book));
 ```
 
 ## General tips
@@ -41,11 +28,11 @@ books.forEach(function (book) {
 
 - **Connect to Real-World Scenarios**: Provide practical examples of when and why arrays are used in real programming projects. This not only enhances understanding but also showcases the relevance of the topic in actual software development.
 
-<hr>
+---
 
 🏗️ **Under Construction**
 
 We are constantly working to improve our resources for instructors and students.
 
-  **Want to contribute to this Instructor Guide?** [Let us know!](https://generalassembly.atlassian.net/servicedesk/customer/portal/16)
+**Have something to contribute to this Instructor Guide?** [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/TEMPLATE-Lab-Solution-Code-Module).
   

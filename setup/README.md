@@ -1,11 +1,11 @@
-# Setup
+# Intro to JavaScript Arrays - Setup
 
 ![Setup hero image](./assets/hero.png)
 
-Open your Terminal application and navigate to your **`~/code/sei/lectures`** directory:
+Open your Terminal application and navigate to your **`~/code/ga/lectures`** directory:
 
 ```bash
-cd ~/code/sei/lectures
+cd ~/code/ga/lectures
 ```
 
 Make a new directory called **`js-arrays`**, then enter this directory:

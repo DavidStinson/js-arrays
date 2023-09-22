@@ -1,8 +1,6 @@
-# Intro to JS Arrays - Copying
+# Intro to JavaScript Arrays - Level Up - Copying
 
 ![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to make partial or full copies of an array.
 
 When working with arrays in JavaScript, there are scenarios where you will want to create a copy of an array rather than modifying the original one. This can prevent unintended side effects in your code, or you might want to derive a new list from the original without affecting the original.
 
@@ -15,10 +13,10 @@ The [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Refe
 Example:
 
 ```js
-// as a reminder, movies is ['Barbie', 'Get Out', 'John Wick']
+// as a reminder, movies is ['Barbie', 'Arrival', 'Get Out', 'Coco']
 
 const moviesCopy = [...movies];
-// movies copy is ['Barbie', 'Get Out', 'John Wick']
+// movies copy is ['Barbie', 'Arrival', 'Get Out', 'Coco']
 ```
 All elements from the `movies` array have been copied into the new array.
 
@@ -31,9 +29,9 @@ The [`slice()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Referenc
 The syntax for `slice()` is as follows:
 
 ```js
-slice()
-slice(start)
-slice(start, end)
+slice();
+slice(start);
+slice(start, end);
 ```
 
 Here, the second argument is the ending index but does not include the value at that index in the result.
@@ -41,9 +39,9 @@ Here, the second argument is the ending index but does not include the value at 
 Example:
 
 ```js
-// movies is ['Barbie', 'Get Out', 'John Wick']
+// movies is ['Barbie', 'Arrival', 'Get Out', 'Coco']
 const twoMovies = movies.slice(1);
-// twoMovies is ['Get Out', 'John Wick']
+// twoMovies is ['Arrival', 'Get Out', 'Coco']
 ```
 
 ## Copy an array and insert additional elements
@@ -52,5 +50,5 @@ Here's how you can copy an array and insert additional elements simultaneously u
 
 ```js
 const moreMovies = ['The Matrix', ...movies];
-// moreMovies is ['The Matrix', 'Barbie', 'Get Out', 'John Wick']
+// moreMovies is ['The Matrix', 'Barbie', 'Arrival', 'Get Out', 'Coco']
 ```

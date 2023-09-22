@@ -1,69 +1,76 @@
-# Intro to JS Arrays - Iteration
+# Intro to JavaScript Arrays - Iteration
 
 ![Hero image](./assets/hero.png)
 
 **Learning objective:** By the end of this lesson, students will be able to *iterate* through and perform actions on each element in an array.
 
-> 📚 *Iteration* is the process of repeatedly executing a set of instructions or looping through a collection of items (like an array or string) one by one until a certain condition is met or until no more items are left to process.
+> 📚 *Iteration* is the process of repeatedly executing a set of instructions or looping through a collection of items (like an array or string) one by one until a specific condition is met or until no more items are left to process.
 
-## Using the `forEach()` iterator method
+## Using a `for` loop
 
-The traditional `for` statement can be used to iterate over an array in an imperative way - where we provide each step the computer should take to carry out an action. The [`forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach) method is a declarative approach that provides a more readable way to iterate over **all** array elements. This method clearly showcases a developer's intention to process each item perform an action on each.
-
-Let's try it out:
+A standard `for` loop can iterate through an array. Initialize the loop with `idx` set to `0` - the index of the first element. End iteration at the index of the last element:
 
 ```js
-// as a reminder, movies is ['Barbie', 'Get Out', 'John Wick']
+// as a reminder, movies is ['Barbie', 'Arrival', 'Get Out', 'Coco']
 
-movies.forEach(function(movie) {
-  console.log(movie);
-});
+for (let idx = 0; idx < movies.length; idx++) {
+  console.log(movies[idx]);
+}
 ```
 
-> 🏆 It's recommended to name the first parameter (representing each item) as a singular form of the array's name. So, if your array is named `movies`, name the parameter `movie`.
+Inside the loop, `idx` serves as the index to retrieve elements from the `movies` array. It increments by 1 after the code inside of the `{ }` has been executed until the condition statement (`idx < movies.length`) is no longer true.
 
-This code will result in the following output:
+We use the `length` property of `movies` to ensure that this loop is dynamic to the size of the array - as elements are added or removed, this same loop will still function.
+
+For our `['Barbie', 'Arrival', 'Get Out', 'Coco']` array, this will result in the following output:
 
 ```text
 Barbie
+Arrival
 Get Out
-John Wick
+Coco
 ```
 
-The `forEach()` method invokes the provided function once **for each item** in the array.
-
-`forEach()` provides it as a second argument that can be used to access the current item's index:
+This loop doesn't do much, but we could do anything we want to inside the `for` loop. Let's number each item.
 
 ```js
-movies.forEach(function(movie, index) {
-  console.log(index + ' - ' + movie);
-});
+for (let idx = 0; idx < movies.length; idx++) {
+  console.log(`${idx + 1}. ${movies[idx]}`);
+}
 ```
 
-Which will result in the following output:
+For the same array, this will be the result:
 
-```
-0 - Barbie
-1 - Get Out
-2 - John Wick
+```text
+1. Barbie
+2. Arrival
+3. Get Out
+4. Coco
 ```
 
 ## Using a `for...of` loop
 
-The [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) statement offers a concise way to iterate over arrays (and other iterable structures like strings):
+The traditional `for` statement can be used to iterate over an array in an *imperative* way - meaning we provide each step the computer should take to carry out an action. The [`for...of`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/for...of) statement is a *declarative* approach that provides a more concise way to iterate over arrays (and other iterable structures like strings):
 
 ```js
 for (let movie of movies) {
-  if (movie === 'Get Out') break;
   console.log(movie);
 }
 ```
-This results in the following output: 
+
+And here's the result:
 
 ```text
 Barbie
+Arrival
+Get Out
+Coco
 ```
 
-The loop exits early when it encounters 'The Matrix' thanks to the [break](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break) statement. This highlights that, unlike `forEach()`, the `for...of` statement provides more control, such as the ability to exit early.
+> 📚 When using *imperative* programming, you instruct the computer how to achieve a specific outcome step by step. When using *declarative* programming, you tell the computer the desired outcome, omitting the finer details. A mnemonic may be helpful to remember this:
+> - ***I***mperative programming requires ***i***nstructions to carry out a task.
+> - ***D***eclarative programming is a ***d***ecree unconcerned with how the result happens, just that it does.
+
+A `for...of` loop has couple of extra unique features in addition to this more declarative approach. Check out the [`break` and `continue` Level Up](../level-up/break.md) for more.
 
 > ⚠️ JavaScript also provides a `for...in` loop. It's designed mainly for iterating over an object's properties rather than array items. Be sure you're using the correct loop for your needs.
