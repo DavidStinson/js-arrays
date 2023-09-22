@@ -43,4 +43,4 @@ This module introduces arrays in JavaScript.
 
 ---
 
-**Find a 👾 bug 👾 or have suggestions? [Let us know](https://ga.co/curriculum-feedback)!**
+**Find a 👾 bug 👾 or have suggestions? [Let us know](https://git.generalassemb.ly/modular-curriculum-all-courses/universal-resources-internal/blob/main/module-feedback.md)!**
