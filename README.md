@@ -8,8 +8,8 @@ This module introduces arrays in JavaScript.
 
 ## Content outline
 
-| Lesson | Delivery Time | Video | Learning Objective |
-| ------ |:-------------:|:-----:| ------------------ |
+| Lesson | Delivery Time | Video | Topics Covered |
+| ------ |:-------------:|:-----:| -------------- |
 | [Setup](./setup/README.md)               | --- | --- | ---                                                                                                    |
 | [Concepts](./concepts/README.md)         | --- | --- | Define the significance of the array data structure in JavaScript.                                     |
 | [Fundamentals](./fundamentals/README.md) | --- | --- | Understand the syntax of creating arrays and the anatomy of an array.                                  |
