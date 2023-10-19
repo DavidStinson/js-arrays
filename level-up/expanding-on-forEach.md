@@ -1,6 +1,6 @@
 # Intro to JavaScript Arrays - Level Up - Expanding on `forEach()`
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-expanding-on-foreach.png)
 
 ## Using named functions with `forEach()`
 

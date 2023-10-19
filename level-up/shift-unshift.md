@@ -1,6 +1,6 @@
 # Intro to JavaScript Arrays - Level Up - `shift()` and `unshift()`
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-shift-and-unshift.png)
 
 ### `unshift()`
 
