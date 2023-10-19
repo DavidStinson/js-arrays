@@ -1,6 +1,6 @@
 # Intro to JavaScript Arrays - Level Up - `join()`
 
-![Hero image](./assets/hero.png)
+![Hero image](./join.md)
 
 ## `join()` example
 

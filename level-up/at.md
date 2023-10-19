@@ -1,6 +1,6 @@
 # Intro to JavaScript Arrays - Level Up - `at()`
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-at.png)
 
 ## The `at()` method
 

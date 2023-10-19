@@ -1,6 +1,6 @@
 # Intro to JS Arrays - Level Up - `break` and `continue`
 
-![Hero image](./assets/hero.png)
+![Hero image](./assets/hero-break-and-continue.png)
 
 ## `break`
 
