@@ -2,7 +2,7 @@
 
 ## About
 
-This module introduces arrays in JavaScript.
+This JavaScript Arrays module is designed to provide a comprehensive introduction to arrays, a fundamental list datatype in programming. The module concludes with an extended practical exercise where learners will create, modify, and iterate through an array of strings. This content is suitable for beginners who are relatively new to JavaScript programming.
 
 ## Prerequisites 
 
