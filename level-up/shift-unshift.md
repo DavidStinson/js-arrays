@@ -1,6 +1,6 @@
-# Intro to JavaScript Arrays - Level Up - `shift()` and `unshift()`
+# ![Intro to JavaScript Arrays - Level Up - `shift()` and `unshift()`](./assets/hero-shift-and-unshift.png)
 
-![Hero image](./assets/hero-shift-and-unshift.png)
+**Learning objective:** By the end of this lesson, students will be able to add and remove elements at the beginning of an array using the unshift() and shift() methods.
 
 ### `unshift()`
 

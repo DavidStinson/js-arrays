@@ -1,6 +1,4 @@
-# Intro to JavaScript Arrays - Setup
-
-![Setup hero image](./assets/hero.png)
+# ![Intro to JavaScript Arrays - Setup](./assets/hero.png)
 
 Open your Terminal application and navigate to your **`~/code/ga/lectures`** directory:
 

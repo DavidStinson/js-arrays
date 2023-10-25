@@ -1,6 +1,6 @@
-# Intro to JavaScript Arrays - Concepts
+# ![Intro to JavaScript Arrays - Concepts](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
+**Learning Objective:** By the end of this lesson, the learner will be able to explain the fundamental properties of arrays in JavaScript, including their dynamic size, versatility in holding various data types, and their role as an ordered collection for storing multiple values.
 
 ## What are arrays?
 

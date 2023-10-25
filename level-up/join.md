@@ -1,6 +1,4 @@
-# Intro to JavaScript Arrays - Level Up - `join()`
-
-![Hero image](./join.md)
+# ![Intro to JavaScript Arrays - Level Up - `join()`](./join.md)
 
 ## `join()` example
 

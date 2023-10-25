@@ -1,6 +1,6 @@
-# Intro to JS Arrays - Level Up - `break` and `continue`
+# ![Intro to JS Arrays - Level Up - `break` and `continue`](./assets/hero-break-and-continue.png)
 
-![Hero image](./assets/hero-break-and-continue.png)
+**Learning objective:** By the end of this lesson, the learner will be able to implement the `break` and `continue` statements in JavaScript to control the flow of loops based on specific conditions.
 
 ## `break`
 

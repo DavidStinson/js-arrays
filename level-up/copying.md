@@ -1,6 +1,6 @@
-# Intro to JavaScript Arrays - Level Up - Copying
+# ![Intro to JavaScript Arrays - Level Up - Copying](./assets/hero-copying.png)
 
-![Hero image](./assets/hero-copying.png)
+**Learning objective:** By the end of this lesson, the learner will be able to copy JavaScript arrays using various methods like the `spread` syntax and `slice()`, and understand when to use each method to avoid unintended side effects.
 
 When working with arrays in JavaScript, there are scenarios where you will want to create a copy of an array rather than modifying the original one. This can prevent unintended side effects in your code, or you might want to derive a new list from the original without affecting the original.
 

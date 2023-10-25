@@ -1,8 +1,10 @@
-# Intro to JavaScript Arrays - Level Up - Shallow vs. Deep Copies of Arrays
+# ![Intro to JavaScript Arrays - Level Up - Shallow vs. Deep Copies of Arrays](./assets/hero-shallow-vs-deep-copies.png)
 
-![Hero image](./assets/hero-shallow-vs-deep-copies.png)
+**Learning objective:** By the end of this lesson, the learner will be able to differentiate between shallow and deep copies of arrays in JavaScript, and utilize appropriate methods like `JSON.stringify()` and `structuredClone()` to create deep copies when needed.
 
-**Shallow vs. Deep Copy**: It's important to note that the techniques we've discussed in the [Copying Level Up](./copying.md) perform a **shallow copy** of the array. This implies that if your array has objects, the copy will reference the same objects, not create fresh ones. Therefore, any modifications to the objects in the original array will be reflected in the copied array.
+## Shallow vs. Deep Copy
+
+It's important to note that the techniques we've discussed in the [Copying Level Up](./copying.md) perform a **shallow copy** of the array. This implies that if your array has objects, the copy will reference the same objects, not create fresh ones. Therefore, any modifications to the objects in the original array will be reflected in the copied array.
 
 Want to see this in action? Try this out on the `movies` and `twoMovies` arrays from the lecture:
 

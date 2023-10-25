@@ -1,6 +1,4 @@
-# Intro to JavaScript Arrays - 🧠 You Do
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Arrays - You Do](./assets/hero.png)
 
 Let's practice creating, modifying, and iterating over an array of strings!
 

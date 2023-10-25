@@ -1,6 +1,4 @@
-# Intro to JavaScript Arrays - Reference
-
-![Hero image](./assets/hero.png)
+# ![Intro to JavaScript Arrays - Reference](./assets/hero.png)
 
 ## Lesson references 
 

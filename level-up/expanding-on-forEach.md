@@ -1,6 +1,6 @@
-# Intro to JavaScript Arrays - Level Up - Expanding on `forEach()`
+# ![Intro to JavaScript Arrays - Level Up - Expanding on `forEach()`](./assets/hero-expanding-on-foreach.png)
 
-![Hero image](./assets/hero-expanding-on-foreach.png)
+**Learning objective:** By the end of this lesson, students will be able to optimize the use of the forEach() method by implementing named functions, managing scope within the callback function, and understanding the limitations on terminating the loop.
 
 ## Using named functions with `forEach()`
 

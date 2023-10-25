@@ -1,6 +1,6 @@
-# Intro to JavaScript Arrays - Level Up - `at()`
+# ![Intro to JavaScript Arrays - Level Up - `at()`](./assets/hero-at.png)
 
-![Hero image](./assets/hero-at.png)
+**Learning objective:** By the end of this lesson, students will be able to utilize the at() method to access array elements using both positive and negative indexes for more efficient code.
 
 ## The `at()` method
 

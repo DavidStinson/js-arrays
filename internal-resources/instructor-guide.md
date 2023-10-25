@@ -1,6 +1,4 @@
-# Intro to JavaScript Arrays - Instructor Guide
-
-![Hero image](./assets/hero-instructor-guide.png)
+# ![Intro to JavaScript Arrays - Instructor Guide](./assets/hero-instructor-guide.png)
 
 ## You Do solution - books
 

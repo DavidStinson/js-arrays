@@ -1,37 +1,44 @@
-# Intro to JavaScript Arrays
+# ![Intro to JavaScript Arrays](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-## Module overview
+## About
 
 This module introduces arrays in JavaScript.
 
-## Content outline
+## Prerequisites 
 
-| Lesson | Delivery Time | Video | Topics Covered |
-| ------ |:-------------:|:-----:| -------------- |
-| [Setup](./setup/README.md)               | --- | --- | ---                                                                                                    |
-| [Concepts](./concepts/README.md)         | --- | --- | Define the significance of the array data structure in JavaScript.                                     |
-| [Fundamentals](./fundamentals/README.md) | --- | --- | Understand the syntax of creating arrays and the anatomy of an array.                                  |
-| [Reading](./reading/README.md)           | --- | --- | Access data at anywhere in an array.                                                                   |
-| [Manipulation](./manipulation/README.md) | --- | --- | Manipulate arrays by modifying their contents and by adding or removing elements anywhere in an array. |
-| [Iteration](./iteration/README.md)       | --- | --- | Iterate through and carry out actions on each element in an array.                                     |
-| [`forEach()`](./forEach/README.md)       | --- | --- | Iterate through and carry out actions on each element in an array using the `forEach()` method.        |
-| [You Do](./you-do/README.md)             | --- | --- | Practice creating, modifying, and iterating through an array of strings.                               |
-|  **Total Module**                        | --- | --- | ---                                                                                                    |
+ - Intro to JavaScript
+ - JavaScript Control Flow
+ - Intro to JavaScript Functions
 
-## Additional content 
+## Content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [Setup](./setup/README.md)               | -- | -- | Setting up the development environment                                        |
+| [Concepts](./concepts/README.md)         | -- | -- | Arrays as a datatype: properties, what they can hold, and use-cases           |
+| [Fundamentals](./fundamentals/README.md) | -- | -- | Creating arrays, syntax, and naming conventions                               |
+| [Reading](./reading/README.md)           | -- | -- | Accessing array elements using `index` and `length` property                  |
+| [Manipulation](./manipulation/README.md) | -- | -- | Updating and manipulating arrays with methods like `push()` and `pop()`       |
+| [Iteration](./iteration/README.md)       | -- | -- | Iterating through arrays using `for` and `for...of` loops                     |
+| [`forEach()`](./forEach/README.md)       | -- | -- | Iterating through arrays using `forEach()`, callback functions, anonymous functions, and index parameter.        |
+| [You Do](./you-do/README.md)             | -- | -- | Practice creating, modifying, and iterating through an array of strings.      |
+|  **Total Module**                        | -- | -- |     |
+
+## Level Up content
+
+| Lesson | Video Time | Video | Skills |
+| ------ |:----------:|:-----:| ------ |
+| [`at()`](./level-up/at.md) | -- | -- | Using `at()` method for array element access with positive and negative indexes |
+| [`shift()` and `unshift()`](./level-up/shift-unshift.md) | -- | -- | Adding and removing elements at array start with `unshift()` and `shift()` methods |
+| [Expanding on `forEach()`](./level-up/expanding-on-forEach.md) | -- | -- | Advanced forEach() usage: named functions, scope management, and loop limitations |
+| [`break` and `continue`](./level-up/break-and-continue.md) | -- | -- | Using break and continue in loop control |
+| [Copying Arrays](./level-up/copying.md) | -- | -- | Copying arrays using `spread` syntax and `slice()` |
+| [Shallow vs. Deep Copies of Arrays](./level-up/shallow-vs-deep.md) | -- | -- | Shallow vs. deep copies, using `JSON.stringify()` and `structuredClone()` |
+|  **Bonus**        | -- | -- |     |
+
+## Reference
 
 📖 [Reference Materials](./references/README.md)
-
-### 🚀 Level Up 
-
-- [`at()`](./level-up/at.md)
-- [`shift()` and `unshift()`](./level-up/shift-unshift.md)
-- [Expanding on `forEach()`](./level-up/expanding-on-forEach.md)
-- [`break` and `continue`](./level-up/break-and-continue.md)
-- [Copying Arrays](./level-up/copying.md)
-- [Shallow vs. Deep Copies of Arrays](./level-up/shallow-vs-deep.md)
 
 ## Internal resources
 

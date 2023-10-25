@@ -1,8 +1,6 @@
-# Intro to JavaScript Arrays - Reading 
+# ![Intro to JavaScript Arrays - Reading ](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to access data at any location in an array.
+**Learning objective:** By the end of this lesson, the learner will be able to accurately retrieve elements from an array using both an index and the length property.
 
 ## Accessing elements at any position in an array
 

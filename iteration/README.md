@@ -1,8 +1,6 @@
-# Intro to JavaScript Arrays - Iteration
+# ![Intro to JavaScript Arrays - Iteration](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will be able to *iterate* through and perform actions on each element in an array.
+**Learning objective:** By the end of this lesson, students will be able to use both `for` and `for...of` loops to iterate through arrays and manipulate each element.
 
 > 📚 *Iteration* is the process of repeatedly executing a set of instructions or looping through a collection of items (like an array or string) one by one until a specific condition is met or until no more items are left to process.
 

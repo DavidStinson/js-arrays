@@ -1,8 +1,6 @@
-# Intro to JavaScript Arrays - Fundamentals
+# ![Intro to JavaScript Arrays - Fundamentals](./assets/hero.png)
 
-![Hero image](./assets/hero.png)
-
-**Learning objective:** By the end of this lesson, students will understand the syntax of creating arrays and the anatomy of an array.
+**Learning objective:** By the end of this lesson, students will be able to create and initialize arrays using correct syntax and naming conventions.
 
 ## Creating arrays
 
@@ -19,7 +17,7 @@ Use array literal notation to create an array using the following syntax:
 
 An array can hold any data inside of it (including other arrays!) and can even hold multiple data types.  
 
-### 🧠 You Do
+## You Do
 
 Create an array named `movies` containing the titles (as strings) of three of your favorite movies.
 
